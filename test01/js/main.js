@@ -37,15 +37,20 @@ $(function () {
         $('.slider05').slick('slickNext');
     });
 
-    $('#fl').on('change', function () {
+    $('#fl1').on('change', function () {
         console.log($(this), $(this).val())
         var lnk = $(this).val();
         if (lnk) {
             window.open(lnk);
         }
+    });
 
-
-
+    $('#fl2').on('change', function () {
+        console.log($(this), $(this).val())
+        var lnk = $(this).val();
+        if (lnk) {
+            window.open(lnk);
+        }
     });
 
 });
