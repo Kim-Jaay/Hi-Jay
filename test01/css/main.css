@@ -90,6 +90,7 @@
     font-weight: 300;
     color: white;
     line-height: 1.4;
+    letter-spacing: -0.025em;
 }
 
 .mainVisual .mainSlider .slick-dots {
@@ -177,9 +178,10 @@
 .section01 .container01 p {
     font-size: 15px;
     font-weight: 300;
-    color: #767676;
+    color: #505050;
     line-height: 1.4;
     margin: 0 0 40px 0;
+    letter-spacing: -0.025em;
 }
 
 .section01 .container01 a {
@@ -234,7 +236,7 @@
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
-    color: #767676;
+    color: #505050;
 }
 
 .section02 .container02 .slider02 {
@@ -268,7 +270,7 @@
     font-weight: 300;
     line-height: 1.4;
     width: 380px;
-    color: #767676;
+    color: #505050;
 }
 
 .section02 .slick-next {
@@ -346,7 +348,7 @@
 .section04 p {
     font-size: 15px;
     font-weight: 300;
-    color: #767676;
+    color: #505050;
     line-height: 1.4;
     margin: 0 0 40px 0;
 }
@@ -550,7 +552,7 @@
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
-    color: #767676;
+    color: #505050;
 
 }
 
@@ -603,7 +605,7 @@
 #footer .container_ff {
     background: #181818;
     padding: 40px;
-    border-bottom: 1px solid #767676;
+    border-bottom: 1px solid #505050;
 }
 
 #footer .top {
@@ -629,6 +631,7 @@
     font-size: 12px;
     font-weight: 100;
     font-style: normal;
+    letter-spacing: 0.05em;
 }
 
 #footer .container_fff {
