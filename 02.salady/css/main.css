@@ -5,9 +5,9 @@ html{height: 15000px;}
 .header{position: absolute; top: 0; left: 0; width: 100%; line-height: 100px; z-index: 99;}
 .header nav{margin: 0 0 0 auto;}
 .header nav>ul{display: flex; color: white;}
-.header nav>ul>li>a {padding: 0 20px; font-size: 15px;}
-.header .header_btn{font-size: 15px; margin: 0 0 0 20px;}
-.header .header_btn a{padding: 5px 15px; background: white; border-radius: 20px;}
+.header nav>ul>li>a {padding: 0 15px; font-size: 15px;}
+.header .header_btn{font-size: 15px; margin: 0 0 0 15px;}
+.header .header_btn a{padding: 3px 15px; background: white; border-radius: 20px;}
 
 /* slide 오류 */
 .main .main_slide .itm01 {-webkit-backface-visibility: hidden; -webkit-transform: translate3d(0, 0, 0);}
@@ -17,7 +17,8 @@ html{height: 15000px;}
 .main_slide figure .mv{width: 100%;}
 
 .main_slide .inner {position: absolute; width: 1200px; inset: 50% auto auto 50%; transform: translate(-50%, -50%); text-align: right;}
-.main_slide figure .thmb {position: absolute; width: 410px; height: 410px; inset: 50% auto auto 50%; transform: translate(-50%, -50%); filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));}
+.main_slide figure .thmb {position: absolute;inset: 50% auto auto 50%; transform: translate(-50%, -50%); filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3)); transition: 0.5s;}
+.main_slide figure .thmb:hover {transform: rotate(360deg);}
 
 .main_slide figure h2 {font-size: 60px; font-family: 'Poppins', sans-serif; font-weight: 900; color: white; margin: 0 0 30px 0;} 
 .main_slide figure p {font-size: 15px; font-weight: 300; color: white; line-height: 1.4;}
