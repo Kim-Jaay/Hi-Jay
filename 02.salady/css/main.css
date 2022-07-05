@@ -1,5 +1,5 @@
 html {
-    height: 15000px;
+    height: 10000px;
 }
 
 .container {
@@ -40,6 +40,7 @@ html {
     padding: 3px 15px;
     background: white;
     border-radius: 20px;
+    color: #767676;
 }
 
 /* slide 오류 */
@@ -53,8 +54,12 @@ html {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
-.main .main_slide {
+.main_visual {
     position: relative;
+}
+
+.main .main_slide {
+    width: 100%;
 }
 
 .main_slide figure .mv {
@@ -70,18 +75,26 @@ html {
     text-align: right;
 }
 
-.main_slide figure .thmb {
+.main_slide .itm01::after {
+    content: "";
     position: absolute;
     width: 410px;
     height: 410px;
-    inset: 25% auto auto 40%;
-    /* transform: translate(-50%, -50%); */
+    background: url(../img/menu_01.png)no-repeat center center/cover;
+    inset: 30% auto auto 41%;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    animation: dish 1s infinite;
 }
 
-.main_slide figure .thmb {
+.main_slide .itm02::after {
+    content: "";
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    background: url(../img/menu_02.png)no-repeat center center/cover;
+    inset: 30% auto auto 41%;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
     animation: dish 1s infinite;
-    transform-origin: center center;
 }
 
 @keyframes dish {
@@ -90,7 +103,7 @@ html {
     }
 
     50% {
-        transform: rotate(-15deg);
+        transform: rotate(-10deg);
     }
 
     100% {
