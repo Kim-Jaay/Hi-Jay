@@ -1,8 +1,4 @@
-html {
-    height: 10000px;
-}
-
-.container {
+.header .container {
     display: flex;
     width: 1200px;
     margin: 0 auto;
@@ -124,4 +120,66 @@ html {
     font-weight: 300;
     color: white;
     line-height: 1.4;
+}
+
+/* section .business */
+.business {
+    padding: 100px;
+}
+
+.business .container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.business .container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.business .container h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.business .container p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 40px 0;
+    line-height: 1.4;
+    color: #505050;
+}
+
+.business .container .inner p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+    color: #505050;
+}
+
+.business ul {
+    display: flex;
+    gap: 30px;
+}
+
+.business ul>li {
+    flex: 1;
+    margin: 0 auto;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.business ul>li img {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.business ul>li .inner {
+    padding: 30px 0;
+    background: white;
+    border-radius: 0 0 20px 20px;
 }
