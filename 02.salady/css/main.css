@@ -1,0 +1,10 @@
+.container{display: flex; width: 1200px; margin: 0 auto;} 
+
+.header{position: absolute; top: 0; left: 0; width: 100%;line-height: 100px;}
+.header nav{margin: 0 0 0 auto;}
+.header nav>ul{display: flex;}
+.header nav>ul>li>a {padding: 0 20px; font-size: 15px;}
+.header .header_btn{font-size: 15px; margin: 0 0 0 20px;}
+.header .header_btn a{padding: 5px 15px; background: white; border-radius: 20px;}
+
+.main .main_slide{position: relative;}
