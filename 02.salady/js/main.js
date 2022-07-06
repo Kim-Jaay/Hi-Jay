@@ -22,6 +22,7 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
         fade: true,
+        verticalSwiping: true,
         cssEase: 'linear'
     })
 

@@ -1,3 +1,7 @@
+html {
+    height: 10000px;
+}
+
 .header .container {
     display: flex;
     width: 1200px;
@@ -71,9 +75,10 @@
     text-align: right;
 }
 
-.main_visual .main_food{
+.main_visual .main_food {
     position: absolute;
-    width: 410px; height: 410px;
+    width: 410px;
+    height: 410px;
     inset: 50% auto auto 50%;
     z-index: 99;
     animation: dish 1s infinite;
@@ -169,4 +174,59 @@
     padding: 30px 0;
     background: white;
     border-radius: 0 0 20px 20px;
+}
+
+.combination {
+    padding: 100px 0;
+    background: #f1f1f1;
+}
+
+.combination .container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.combination .container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.combination .container .combi_inner p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 40px 0;
+    line-height: 1.4;
+    color: #505050;
+}
+
+
+.combination .container h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.combination .container ul p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #505050;
+}
+
+.combination .container ul {
+    display: flex;
+    gap: 30px;
+}
+
+.combination .container ul>li {
+    padding: 50px 40px;
+    background: white;
+    border-radius: 20px;
+}
+
+.combination .container ul>li>img {
+    margin: 0 0 30px 0;
 }
