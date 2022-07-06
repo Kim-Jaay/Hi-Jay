@@ -14,6 +14,7 @@ $(function () {
         pauseOnFocus: false,
         vertical: true,
         verticalSwiping: true,
+        asNavFor: '.main_food'
     });
 
     $('.main_food').slick({
@@ -28,19 +29,19 @@ $(function () {
 
 
 
-    $('.main_arrow i:nth-child(1)').on('click', function () {
+    $('.main_arrow img:nth-child(1)').on('click', function () {
         $('.main_slide').slick('slickPrev');
     });
 
-    $('.main_arrow i:nth-child(2)').on('click', function () {
+    $('.main_arrow img:nth-child(2)').on('click', function () {
         $('.main_slide').slick('slickNext');
     });
 
-    $('.main_arrow i:nth-child(1)').on('click', function () {
+    $('.main_arrow img:nth-child(1)').on('click', function () {
         $('.main_food').slick('slickPrev');
     });
 
-    $('.main_arrow i:nth-child(2)').on('click', function () {
+    $('.main_arrow img:nth-child(2)').on('click', function () {
         $('.main_food').slick('slickNext');
     });
 

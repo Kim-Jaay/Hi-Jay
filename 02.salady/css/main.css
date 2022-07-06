@@ -114,6 +114,22 @@ html {
     line-height: 1.4;
 }
 
+.slide_num{
+    position: absolute;
+    inset: auto 379px 100px auto;
+    padding: 7px 16px 8px 18px;
+    border: 1px solid white;
+    color: white;
+}
+
+.main_arrow{
+    position: absolute;
+    display: flex;
+    inset: auto 350px 100px auto;
+    gap: 60px;
+    cursor: pointer;
+}
+
 /* section .business */
 .business {
     padding: 100px;
