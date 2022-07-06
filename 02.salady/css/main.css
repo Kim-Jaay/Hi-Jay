@@ -241,6 +241,7 @@ html {
     padding: 50px 40px;
     background: white;
     border-radius: 20px;
+    transition: all 0.5s linear;
 }
 
 .combination .container ul>li>img {
@@ -318,4 +319,19 @@ html {
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
+}
+
+.movie{
+    padding: 100px 0;
+}
+
+.movie .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.movie .container video{
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: ;
 }
