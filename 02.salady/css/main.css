@@ -130,9 +130,35 @@ html {
     cursor: pointer;
 }
 
-/* section .business */
+.banner {
+    padding: 100px 0 25px 0;
+}
+
+.banner figure {
+    padding: 50px 205px;
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../img/banner.png)no-repeat center center/cover;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.banner figure h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.banner figure p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #505050;
+}
+
+
+
 .business {
-    padding: 100px;
+    padding: 25px 0 100px 0;
 }
 
 .business .container {
@@ -146,6 +172,15 @@ html {
     font-size: 30px;
     font-weight: 400;
     margin: 0 0 10px 0;
+}
+
+.business .container::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background: #777;
+    margin: 0 auto 50px auto;
 }
 
 .business .container h3 {
