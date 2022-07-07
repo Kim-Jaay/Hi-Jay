@@ -110,20 +110,29 @@
     line-height: 1.4;
 }
 
-.slide_num{
-    position: absolute;
-    inset: auto 379px 100px auto;
-    padding: 7px 16px 8px 18px;
-    border: 1px solid white;
-    color: white;
-}
+
 
 .main_arrow{
+
     position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin: 0 0 0 600px;
+    transform: translateX(-100%);
+
     display: flex;
-    inset: auto 350px 100px auto;
-    gap: 60px;
-    cursor: pointer;
+    border: 1px solid white;
+
+}
+
+.main_arrow .slide_num{
+    color: white;
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+
+.main_arrow>li~li {
+    border-left: 1px solid white;
 }
 
 .banner {
