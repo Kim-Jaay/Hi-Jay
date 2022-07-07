@@ -319,13 +319,12 @@
 .menu_img .inner .itm>img {
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
 
 .menu_img .inner .itm>img:hover {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
-    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .menu_img .inner div {
