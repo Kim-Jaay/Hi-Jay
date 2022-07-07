@@ -29,19 +29,19 @@ $(function () {
 
 
 
-    $('.main_arrow img:nth-child(1)').on('click', function () {
+    $('.main_arrow .prev').on('click', function () {
         $('.main_slide').slick('slickPrev');
     });
 
-    $('.main_arrow img:nth-child(2)').on('click', function () {
+    $('.main_arrow .next').on('click', function () {
         $('.main_slide').slick('slickNext');
     });
 
-    $('.main_arrow img:nth-child(1)').on('click', function () {
+    $('.main_arrow .prev').on('click', function () {
         $('.main_food').slick('slickPrev');
     });
 
-    $('.main_arrow img:nth-child(2)').on('click', function () {
+    $('.main_arrow .next').on('click', function () {
         $('.main_food').slick('slickNext');
     });
 
