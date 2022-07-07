@@ -110,22 +110,10 @@
     line-height: 1.4;
 }
 
-<<<<<<< HEAD
 
 
 .main_arrow{
 
-=======
-.slide_num {
-    position: absolute;
-    inset: auto 379px 100px auto;
-    padding: 7px 16px 8px 18px;
-    border: 1px solid white;
-    color: white;
-}
-
-.main_arrow {
->>>>>>> 2352deb39655a7d288cec4c3073ce355e0078090
     position: absolute;
     bottom: 100px;
     left: 50%;
