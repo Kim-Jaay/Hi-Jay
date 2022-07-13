@@ -43,13 +43,24 @@
 
 .main_visual .main_slider p { font-size: 15px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; } 
 
-.main_visual .main_slider .itm01 .inner { color: white; } 
+/* .main_visual .main_slider .itm01 .inner { color: white; }  */
 
-.main_visual .main_arrow { position: absolute; display: flex; gap: 10px; bottom: 250px; right: 50%; margin: 0 560px 0 0 ;}
+.main_visual .main_arrow { position: absolute; display: flex; gap: 10px; bottom: 250px; right: 50%; margin: 0 560px 0 0; } 
 
-.main_visual .main_arrow .i {width: 15px;}
+.main_visual .main_arrow .i { width: 15px; } 
 
-.main_visual .main_arrow {transition: 0;}
-.main_visual .main_arrow.on {color: white;}
+/* .main_visual .main_arrow.on { color: white; }  */
 
-.main_visual .main_arrow .slide_num {font-family: 'Marcellus', serif; width: 30px; text-align: center;}
+.main_visual .main_arrow .slide_num { font-family: 'Marcellus', serif; width: 27px; text-align: right; } 
+
+
+.pro-bar { position: absolute;  display: block; bottom: 255px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: #333;} 
+.pro-bar::before {content: ""; display: block; width: 300px; height:4px; background: transparent; border: 1px solid #333; }
+
+
+.pro-ani { animation: proBar 3s; width:100%; } 
+
+@keyframes proBar { 
+ 0% { width:0; } 
+ 100% { width:300px; } 
+ }

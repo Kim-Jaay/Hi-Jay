@@ -10,6 +10,14 @@ $(function () {
         if (c === 0) {
             $('.main_arrow').addClass('on')
         }
+
+
+        $('.main_slider').on('afterChange', function () {
+            $(".pro-bar").addClass('pro-ani');
+        });
+        $('.main_slider').on('beforeChange', function () {
+            $('.pro-bar').removeClass('pro-ani');
+        });
     });
 
 
@@ -18,6 +26,7 @@ $(function () {
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
+        speed: 600,
         fade: true,
     });
 
