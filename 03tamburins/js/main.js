@@ -26,8 +26,15 @@ $(function () {
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
-        speed: 600,
         fade: true,
+    });
+
+    $('.product_slider').slick({
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        slidesToShow: 4,
     });
 
 
