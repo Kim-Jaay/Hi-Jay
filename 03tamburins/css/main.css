@@ -105,9 +105,11 @@
 .video .container .inner { width: 1280px; margin:0 auto; text-align: center; } 
 .video .container .inner h2 { font-size: 40px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
 .video .container .inner p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.5; margin: 0 0 70px 0; } 
+
 .video .container_img { width: 1280px; margin: 0 auto; } 
-.video .container_img .img { display: flex; gap: 20px; } 
-.video .container_img .img>img { width: 408px; } 
+.video .container_img .img {display: flex; gap: 20px; } 
+.video .container_img .img img {width: 413px;}
+
 
 
 /* footer */
