@@ -29,7 +29,7 @@ $(function () {
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
-        slidesToShow: 3
+        slidesToShow: 4
         ,
         centerMode: true,
     });

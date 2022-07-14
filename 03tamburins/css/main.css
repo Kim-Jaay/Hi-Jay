@@ -26,11 +26,11 @@
 .main_visual .main_slider h3 { font-size: 50px; font-family: 'Marcellus', serif; margin: 0 0 30px 0; color: white; } 
 .main_visual .main_slider p { font-size: 13px; font-weight: 100; font-family: 'Noto Sans KR', sans-serif; line-height: 1.5; color: white; } 
 
-.main_visual .main_arrow { position: absolute; display: flex; gap: 10px; bottom: 350px; right: 50%; margin: 0 570px 0 0; color: white; } 
+.main_visual .main_arrow { position: absolute; display: flex; gap: 10px; bottom: 330px; right: 50%; margin: 0 570px 0 0; color: white; } 
 .main_visual .main_arrow .i { width: 15px; } 
 .main_visual .main_arrow .slide_num { font-family: 'Marcellus', serif; width: 27px; text-align: right; color: white; } 
 
-.pro-bar { position: absolute; display: block; bottom: 355px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: rgba(255, 255, 255, 0.1);} 
+.pro-bar { position: absolute; display: block; bottom: 335px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: rgba(255, 255, 255, 0.1);} 
 .pro-bar::before { content: ""; display: block; width:0; height:4px; background: white;  } 
 .pro-bar.on::before {width: 300px; transition: 3s;}
 
@@ -44,7 +44,24 @@
 .product_type { padding: 100px 0; } 
 .product_type .container { width: 1280px; margin: 0 auto; } 
 .product_type .container h2 { font-size: 20px; font-family: 'Marcellus', serif; margin: 0 0 20px 0; } 
-.product_type .container .content { display: flex; gap:20px; } 
+.product_type .container .content { display: flex; gap:20px;} 
+.product_type .container .content a:hover { background: transparent; outline: 2px solid #555; outline-offset: 4px; border-radius: 50%; } 
+
+
+/* section fixed */
+.fixed .container figure{background: url(../img/fixbgbg.png)no-repeat fixed center/cover; text-align: right; color: white;}
+.fixed .container .inner{width: 1280px; margin: 0 auto; padding: 300px 0; }
+.fixed .container .inner h2{font-size: 50px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
+.fixed .container .inner p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 40px 0;}
+.fixed .container .inner .btn { padding: 8px 25px; display: inline-block; background: white; color: #181818; font-family: 'Marcellus', serif; font-size: 15px; } 
+ 
+
+ /* section product_list */
+ .product_list { padding: 100px 0; } 
+ .product_list .container { width: 1280px; margin: 0 auto; text-align: center;} 
+ .product_list .container h2{font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
+ .product_list .container p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 30px 0;}
+ .product_list .product_slider img { padding: 0 10px; } 
 
  /* section product_story */
 .product_story { padding: 100px 0; } 
@@ -58,20 +75,12 @@
 .product_story .container .inner02>img { justify-content: flex-end; } 
 .product_story .container .inner02 .content { margin: auto auto auto 0; } 
 
- /* section product_list */
-.product_list { padding: 100px 0; } 
-.product_list .product_slider { width: 1280px; margin: 0 auto; } 
-.product_list .product_slider img { padding: 0 10px; } 
-
- /* section product */
-.product { padding: 100px 0; } 
-.product .container { width: 1280px; margin: 0 auto; display: flex; } 
-.product .container .inner { flex: 2; margin: auto 0; } 
-.product .container img { flex: 1; width: 500px; } 
-.product .container .inner h2 { font-size: 50px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
-.product .container .inner p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 40px 0; } 
-.product .container .inner .btn { padding: 8px 25px; display: inline-block; background: #181818; color: white; font-family: 'Marcellus', serif; } 
  
 
 
+/* section handcream */
+.handcream .container figure {background: url(../img/handhand.png)no-repeat center center/cover;}
+.handcream .container figure .inner {padding:300px 0 100px 0; width: 1280px; text-align: right; color: white; margin: 0 auto;}
+.handcream .container figure .inner h2{font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
+.handcream .container figure .inner p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4;}
 
