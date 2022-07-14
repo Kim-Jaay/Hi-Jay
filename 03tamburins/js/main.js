@@ -12,10 +12,10 @@ $(function () {
         }
 
 
-        $('.main_slider').on('afterChange', function () {
+        $('.main_slider').on('init afterChange', function () {
             $(".pro-bar").addClass('pro-ani');
         });
-        $('.main_slider').on('beforeChange', function () {
+        $('.main_slider').on('init beforeChange', function () {
             $('.pro-bar').removeClass('pro-ani');
         });
     });
@@ -34,7 +34,9 @@ $(function () {
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
-        slidesToShow: 4,
+        slidesToShow: 3
+        ,
+        centerMode: true,
     });
 
 
