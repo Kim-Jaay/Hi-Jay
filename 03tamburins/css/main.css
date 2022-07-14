@@ -30,41 +30,63 @@
 .main_visual .main_arrow .i { width: 15px; } 
 .main_visual .main_arrow .slide_num { font-family: 'Marcellus', serif; width: 27px; text-align: right; color: white; } 
 
-.pro-bar { position: absolute; display: block; bottom: 335px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: rgba(255, 255, 255, 0.1);} 
-.pro-bar::before { content: ""; display: block; width:0; height:4px; background: white;  } 
-.pro-bar.on::before {width: 300px; transition: 3s;}
+.pro-bar { position: absolute; display: block; bottom: 335px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: rgba(255, 255, 255, 0.1); } 
+.pro-bar::before { content: ""; display: block; width:0; height:4px; background: white; } 
+.pro-bar.on::before { width: 300px; transition: 3s; } 
 
-.main .wheel { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
- width: 25px; height: 40px; border: 2px solid white; border-radius: 15px; font-size: 0; } 
+.main .wheel { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 25px; height: 40px; border: 2px solid white; border-radius: 15px; font-size: 0; } 
 .main .wheel span { position: absolute; top: 6px; left: 50%; transform: translateX(-50%); width: 2px; height: 8px; background: white; border-radius: 2px; animation: wheel 1s infinite; } 
-@keyframes wheel { to { top: 10px} 
+@keyframes wheel { to { top: 10px } 
  }
 
 /* section product_type */
 .product_type { padding: 100px 0; } 
 .product_type .container { width: 1280px; margin: 0 auto; } 
 .product_type .container h2 { font-size: 20px; font-family: 'Marcellus', serif; margin: 0 0 20px 0; } 
-.product_type .container .content { display: flex; gap:20px;} 
+.product_type .container .content { display: flex; gap:20px; } 
 .product_type .container .content a:hover { background: transparent; outline: 2px solid #555; outline-offset: 4px; border-radius: 50%; } 
 
 
 /* section fixed */
-.fixed .container figure{background: url(../img/fixbgbg.png)no-repeat fixed center/cover; text-align: right; color: white;}
-.fixed .container .inner{width: 1280px; margin: 0 auto; padding: 300px 0; }
-.fixed .container .inner h2{font-size: 50px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
-.fixed .container .inner p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 40px 0;}
+.fixed .container figure { background: url(../img/fixbgbg.png)no-repeat fixed center/cover; text-align: right; color: white; } 
+.fixed .container .inner { width: 1280px; margin: 0 auto; padding: 300px 0; } 
+.fixed .container .inner h2 { font-size: 50px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
+.fixed .container .inner p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 40px 0; } 
 .fixed .container .inner .btn { padding: 8px 25px; display: inline-block; background: white; color: #181818; font-family: 'Marcellus', serif; font-size: 15px; } 
  
 
  /* section product_list */
  .product_list { padding: 100px 0; } 
- .product_list .container { width: 1280px; margin: 0 auto; text-align: center;} 
- .product_list .container h2{font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
- .product_list .container p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 30px 0;}
+ .product_list .container { width: 1280px; margin: 0 auto; text-align: center; } 
+ .product_list .container h2 { font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
+ .product_list .container p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 30px 0; } 
  .product_list .product_slider img { padding: 0 10px; } 
 
+/* section perfumed */
+.perfumed { padding: 100px 0; background: #f1f1f1; } 
+.perfumed .container { width: 1280px; margin: 0 auto; } 
+.perfumed .container h2 { font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
+.perfumed .container p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0 0 30px 0; } 
+.perfumed .container .inner01 { display: flex; gap: 20px; } 
+.perfumed .container .inner02 { display: flex; gap: 20px; } 
+.perfumed .container .itm .itm_inner { padding: 30px 0; background: white; text-align: center; margin: 0 0 20px 0; } 
+.perfumed .container .itm .itm_inner h3 { font-size: 17px; line-height: 1.2; margin: 0 0 10px 0; } 
+.perfumed .container .itm .itm_inner p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; margin: 0; } 
+
+
+
+
+
  /* section product_story */
-.product_story { padding: 100px 0; } 
+.product_story .container { position: relative; } 
+.product_story .container .inner_top figure { background: url(../img/story01.png)no-repeat center center/cover; height: 100vh; } 
+.product_story .container .inner_top figure .content { width: 1280px; margin: 0 auto; padding: 700px 0 0 0; } 
+.product_story .container .inner_top figure .content h2 { font-size: 60px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; color: white; } 
+.product_story .container .inner_top figure .content p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; color: white; } 
+.product_story .container .inner_middle { position: absolute; inset: 50% auto auto 50%; transform:translate(-50%, -50%); margin: 350px 0 0 325px; width: 630px; } 
+
+
+/* .product_story { padding: 100px 0; } 
 .product_story .container { width: 1280px; margin: 0 auto; } 
 .product_story .container .inner { display: flex; } 
 .product_story .container .inner h2 { font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
@@ -73,14 +95,14 @@
 .product_story .container .inner01 { margin: 0 0 100px 0; } 
 .product_story .container .inner01 .content { margin: auto auto auto 128px; } 
 .product_story .container .inner02>img { justify-content: flex-end; } 
-.product_story .container .inner02 .content { margin: auto auto auto 0; } 
+.product_story .container .inner02 .content { margin: auto auto auto 0; } */
 
  
 
 
 /* section handcream */
-.handcream .container figure {background: url(../img/handhand.png)no-repeat center center/cover;}
-.handcream .container figure .inner {padding:300px 0 100px 0; width: 1280px; text-align: right; color: white; margin: 0 auto;}
-.handcream .container figure .inner h2{font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0;}
-.handcream .container figure .inner p{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4;}
+.handcream .container figure { background: url(../img/handhand.png)no-repeat center center/cover; } 
+.handcream .container figure .inner { padding:300px 0 100px 0; width: 1280px; text-align: right; color: white; margin: 0 auto; } 
+.handcream .container figure .inner h2 { font-size: 20px; font-family: 'Marcellus', serif; line-height: 1.2; margin: 0 0 20px 0; } 
+.handcream .container figure .inner p { font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR', sans-serif; line-height: 1.4; } 
 
