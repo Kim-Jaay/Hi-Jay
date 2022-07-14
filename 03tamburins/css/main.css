@@ -26,20 +26,13 @@
 .main_visual .main_slider h3 { font-size: 50px; font-family: 'Marcellus', serif; margin: 0 0 30px 0; color: white; } 
 .main_visual .main_slider p { font-size: 13px; font-weight: 100; font-family: 'Noto Sans KR', sans-serif; line-height: 1.5; color: white; } 
 
-
-
 .main_visual .main_arrow { position: absolute; display: flex; gap: 10px; bottom: 350px; right: 50%; margin: 0 570px 0 0; color: white; } 
 .main_visual .main_arrow .i { width: 15px; } 
 .main_visual .main_arrow .slide_num { font-family: 'Marcellus', serif; width: 27px; text-align: right; color: white; } 
 
-
-.pro-bar { position: absolute; display: block; bottom: 355px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: white; } 
-.pro-bar::before { content: ""; display: block; width: 300px; height:4px; background: rgba(255, 255, 255, 0.1); } 
-.pro-ani { animation: proBar 3s; width:100%; } 
-@keyframes proBar { 
- 0% { width:0; } 
- 100% { width:300px; } 
- }
+.pro-bar { position: absolute; display: block; bottom: 355px; left: 50%; margin:0 0 0 -550px; width:300px; height:4px; background: rgba(255, 255, 255, 0.1);} 
+.pro-bar::before { content: ""; display: block; width:0; height:4px; background: white;  } 
+.pro-bar.on::before {width: 300px; transition: 3s;}
 
 .main .wheel { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
  width: 25px; height: 40px; border: 2px solid white; border-radius: 15px; font-size: 0; } 
@@ -47,14 +40,11 @@
 @keyframes wheel { to { top: 10px} 
  }
 
-
-
 /* section product_type */
 .product_type { padding: 100px 0; } 
 .product_type .container { width: 1280px; margin: 0 auto; } 
 .product_type .container h2 { font-size: 20px; font-family: 'Marcellus', serif; margin: 0 0 20px 0; } 
 .product_type .container .content { display: flex; gap:20px; } 
-
 
  /* section product_story */
 .product_story { padding: 100px 0; } 
@@ -67,7 +57,6 @@
 .product_story .container .inner01 .content { margin: auto auto auto 128px; } 
 .product_story .container .inner02>img { justify-content: flex-end; } 
 .product_story .container .inner02 .content { margin: auto auto auto 0; } 
-
 
  /* section product_list */
 .product_list { padding: 100px 0; } 
