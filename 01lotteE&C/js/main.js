@@ -1,4 +1,7 @@
 $(function () {
+    $('.slider05').on('init afterChange', function (e, s, c) {
+        $('.slider05 figure.slick-current').addClass('on').siblings().removeClass('on');
+    });
 
     $('.mainSlider').slick({
         arrows: true,
@@ -25,9 +28,7 @@ $(function () {
     });
 
 
-    $('.slider05').on('init afterChange', function (e, s, c) {
-        $('.slider05 figure.slick-current').addClass('on').siblings().removeClass('on');
-    });
+
 
     $('.arrows05 i:nth-child(1)').on('click', function () {
         $('.slider05').slick('slickPrev');
