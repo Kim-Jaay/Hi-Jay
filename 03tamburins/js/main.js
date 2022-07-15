@@ -42,4 +42,17 @@ $(function () {
     $('.main_arrow .next').on('click', function () {
         $('.main_slider').slick('slickNext');
     });
+
+    $('.toTop').on('click', function () {
+        $('html,body').animate({ scrollTop: 0 }, 200)
+    });
+
+    $(window).on('scroll', function () {
+        var sct = $(window).scrollTop();
+        if (sct > 500) {
+            $('.toTop').fadeIn(300)
+        } else {
+            $('.toTop').fadeOut(1000)
+        }
+    });
 });
