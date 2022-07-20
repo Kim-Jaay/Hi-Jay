@@ -1,3 +1,5 @@
+html{height: 15000px;}
+
 /* header */
 .header h1 { line-height: 100px; } 
 .header h1 img { width: 70px; } 
@@ -10,4 +12,4 @@
 
 
 /* section main_visual */
-.main_visual figure{background: url(../img/main_01.png)no-repeat center center/cover; height: 820px;}
+.main_visual figure{background: url(../img/main_02.jpg)no-repeat center center/cover; height: 820px;}
