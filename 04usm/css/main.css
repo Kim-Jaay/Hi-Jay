@@ -1,0 +1,13 @@
+/* header */
+.header h1 { line-height: 100px; } 
+.header h1 img { width: 70px; } 
+.header h1 img:nth-child(1) { animation: rotate_image 10s linear infinite; transform-origin: 50% 50%; } 
+@keyframes rotate_image { 100% { transform: rotate(360deg); } 
+ } 
+.header .gnb { line-height: 50px; border-bottom: 1px solid #333; } 
+.header .gnb>ul { display: flex; gap: 40px; } 
+
+
+
+/* section main_visual */
+.main_visual figure{background: url(../img/main_01.png)no-repeat center center/cover; height: 820px;}
