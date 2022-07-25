@@ -1,4 +1,5 @@
 html { height: 15000px; } 
+/* *{outline: 1px dotted pink;} */
 
 /* header */
 .header h1 { line-height: 100px; margin: 0 auto; text-align: center; } 
@@ -9,7 +10,7 @@ html { height: 15000px; }
  }
 
 .header .gnb { margin: 0 auto; line-height: 50px; border-bottom: 1px solid #333; border-top: 1px solid #333;; } 
-.header .gnb>ul { display: flex; gap: 50px; justify-content: center; font-size: 15px; font-weight: 500; } 
+.header .gnb>ul { display: flex; gap: 50px; justify-content: center; font-family: 'SUIT'; font-weight: 400;  font-size: 15px;} 
 
 
 
@@ -20,6 +21,23 @@ html { height: 15000px; }
 /* section at_Home */
 .main .at_home { padding: 100px 0; } 
 .main .at_home .container .inner { width: 1420px; margin: 0 auto; } 
-.main .at_home .container .inner h2 {font-size: 80px; font-family: ‘SUIT’, sans-serif; margin: 0 0 50px 0;}
-.main .at_home .container .inner p {font-size: 15px; font-family: ‘SUIT’, sans-serif; margin: 0 0 70px 0; line-height: 1.4;}
-.main .container .at_home_slide img {padding: 0 10px;}
+.main .at_home .container .inner h2 { font-size: 80px; font-family: 'SUIT'; font-weight: 700; margin: 0 0 60px 0; } 
+.main .at_home .container .inner p { font-size: 15px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 70px 0; line-height: 1.4; } 
+.main .container .at_home_slide img { margin: 0 10px; border: 1px solid #333; } 
+
+/* section slide_section */
+.slide_section {border-top: 1px solid #333; border-bottom: 1px solid #333; height: 750px; background: rgb(236, 236, 236); overflow: hidden;}
+.slide_section .container {display: flex; width: 1420px; margin: 0 auto; }
+.slide_section .container .slide{display: flex; width: 50%;}
+.slide_section .container .slide div>img {padding: 10px; width: 340px;}
+
+.slide_section .content {margin: 260px 0; width: 50%; font-family: 'SUIT'; text-align: right;}
+.slide_section .content h2{font-size: 60px; font-weight: 700; margin: 0 0 50px 0;}
+.slide_section .content p{font-size: 15px; font-weight: 400; line-height: 1.4;}
+
+/* section home_style */
+.home_style { padding: 100px 0; } 
+.home_style .container { display: flex; gap:20px; width: 1420px; margin: 0 auto; } 
+.home_style .container h2 {font-family: 'SUIT'; font-weight: 700; font-size: 30px; margin: 0 0 20px 0; } 
+.home_style .container p {font-family: 'SUIT'; font-weight: 400; font-size: 15px; margin: 0 0 30px 0; line-height: 1.4; } 
+.home_style .container img {border: 1px solid #333;}
