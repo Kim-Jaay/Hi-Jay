@@ -41,3 +41,6 @@ html { height: 15000px; }
 .home_style .container h2 {font-family: 'SUIT'; font-weight: 700; font-size: 30px; margin: 0 0 20px 0; } 
 .home_style .container p {font-family: 'SUIT'; font-weight: 400; font-size: 15px; margin: 0 0 30px 0; line-height: 1.4; } 
 .home_style .container img {border: 1px solid #333;}
+
+/* section fixed */
+.fixed figure{background: url(../img/fixed.png)no-repeat fixed center/cover; padding: 300px 0;}
