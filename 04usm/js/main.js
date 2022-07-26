@@ -57,4 +57,6 @@ $(function () {
         $('.slide_small').slick('slickNext');
     })
 
+    AOS.init();
+
 });
