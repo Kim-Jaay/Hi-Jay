@@ -18,14 +18,16 @@ html { height: 15000px; }
 .main figure img { width: 100%; border-bottom: 1px solid #333; } 
 
 
+
 /* section at_Home */
 .at_home { padding: 100px 0; } 
 .at_home .container { width: 1420px; margin: 0 auto; } 
 .at_home .container h2 { font-size: 80px; font-family: 'SUIT'; font-weight: 700; margin: 0 0 60px 0; } 
 .at_home .container .inner {display: flex; justify-content: space-between;}
-.at_home .container .inner p { font-size: 15px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 70px 0; line-height: 1.4; } 
+.at_home .container .inner p { font-size: 17px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 70px 0; line-height: 1.4; } 
 .at_home_slide img { margin: 0 10px;} 
 .at_home .btn {cursor: pointer; width: 60px; height: 60px; border: 1px solid #333; border-radius: 30px;}
+
 
 
 /* section slide_section */
@@ -33,10 +35,11 @@ html { height: 15000px; }
 .slide_section .container {display: flex; width: 1420px; margin: 0 auto; }
 .slide_section .container .slide{display: flex; width: 50%;}
 .slide_section .container .slide div>img {padding: 10px; width: 340px;}
-
 .slide_section .content {margin: 260px 0; width: 50%; font-family: 'SUIT'; text-align: right;}
-.slide_section .content h2{font-size: 60px; font-weight: 700; margin: 0 0 50px 0;}
-.slide_section .content p{font-size: 15px; font-weight: 400; line-height: 1.4;}
+.slide_section .content h2{font-size: 40px; font-weight: 700; margin: 0 0 30px 0;}
+.slide_section .content p{font-size: 20px; font-weight: 400; line-height: 1.4;}
+
+
 
 /* section_tile */
 .tile{padding-top: 100px;}
@@ -44,12 +47,31 @@ html { height: 15000px; }
 .tile .container h2 {font-size: 30px; font-family: 'SUIT'; font-weight: 700; margin: 0 0 30px 0; line-height: 1.3;}
 .tile .container p {font-size: 20px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 50px 0; line-height: 1.4;}
 .tile .container .inner{display: flex; justify-content: space-between;}
-
 .tile .container .inner .btn_tile{display: inline-block; background: #f1f1f1; padding: 9px 30px 10px 30px; border: 1px solid #333; margin: auto 0 50px auto; cursor: pointer; transition: 0.5s;}
 .tile .container .inner .btn_tile:hover{border: 1px solid #333; background: #333; color: white;}
-
 .tile .inner_img {display: flex; width: 50%; }
 .tile .inner_img img:hover{filter: brightness(0.5); transition: 0.5s;}
+
+/* section small_slide */
+.small_slide{position: relative; padding: 100px 0;}
+.small_slide .container{ width: 1420px; margin: 0 auto;}
+.small_slide .container h2{font-size: 30px; font-family: 'SUIT'; font-weight: 700; margin: 0 0 30px 0; line-height: 1.3;}
+.small_slide .container p{font-size: 15px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 100px 0; line-height: 1.4;}
+.small_slide .container .small_btn{cursor: pointer; width: 60px; height: 60px; border: 1px solid #333; border-radius: 30px;}
+.small_slide .slide_small{position: absolute; inset: 50% 0 0 50%; transform: translate(0, -66%);}
+.small_slide .slide_small img{margin: 10px; height: 330px; width: 330px;}
+
+
+
+
+/* section typo */
+.typo{background: #181818; height: 100vh; padding: 200px 0;}
+.typo .container{width: 1420px; margin: 0 auto;}
+.typo .inner{display: flex;}
+.typo .inner img{height: 100px; margin: 30px 0;}
+.typo .inner p{color: white; font-size: 150px; font-family: 'SUIT'; font-weight: 600; margin: 0 30px 60px 0;}
+.typo .inner span{color: white; font-size: 150px; font-family: 'SUIT'; font-weight: 600; text-align: right; margin: 0 0 60px 30px;}
+.typo .inner strong{color: white; font-size: 150px; font-family: 'SUIT'; font-weight: 600; margin: 0 30px 0 0;}
 
 
 

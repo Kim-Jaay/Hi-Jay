@@ -43,4 +43,18 @@ $(function () {
         slidesToShow: 3,
         cssEase: "linear",
     });
+
+    $('.slide_small').slick({
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        slidesToShow: 4,
+        variableWidth: true
+    });
+
+    $('.small_btn').on('click', function () {
+        $('.slide_small').slick('slickNext');
+    })
+
 });
