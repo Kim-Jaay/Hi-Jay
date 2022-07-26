@@ -34,7 +34,7 @@ html { height: 15000px; }
 .slide_section { height: 750px; background: rgb(236, 236, 236); overflow: hidden; } 
 .slide_section .container { display: flex; width: 1420px; margin: 0 auto; } 
 .slide_section .container .slide { display: flex; width: 50%; } 
-.slide_section .container .slide div>img { padding: 10px; width: 340px; } 
+.slide_section .container .slide div>img { padding-right: 20px; padding-top:20px; width: 340px; } 
 .slide_section .content { margin: 260px 0; width: 50%; font-family: 'SUIT'; text-align: right; } 
 .slide_section .content h2 { font-size: 40px; font-weight: 700; margin: 0 0 30px 0; } 
 .slide_section .content p { font-size: 20px; font-weight: 400; line-height: 1.4; } 
@@ -75,10 +75,12 @@ html { height: 15000px; }
 
 
 /* section aos */
-.aos .container {width: 1420px; margin: 0 auto; } 
+.aos .container { width: 1420px; margin: 0 auto; } 
 .aos .container div { width: 50%; } 
 .aos .container .aos01 { margin: 0 0 100px 0; } 
-.aos .container .aos02 { display: block; margin: 0 0 100px 0; float: right; clear: both;} 
+.aos .container .aos02 { display: block; margin: 0 0 100px 0; float: right; clear: both; } 
 .aos .container .aos03 { display: inline-block; float: left; clear: both; } 
 
 
+/* section fixed */
+.fixed { position:static; } 
