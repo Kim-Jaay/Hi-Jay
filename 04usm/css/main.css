@@ -60,12 +60,12 @@ html { height: 15000px; }
 .small_slide .container h2 { font-size: 30px; font-family: 'SUIT'; font-weight: 700; margin: 0 0 30px 0; line-height: 1.3; } 
 .small_slide .container p { font-size: 15px; font-family: 'SUIT'; font-weight: 400; margin: 0 0 100px 0; line-height: 1.4; } 
 .small_slide .container .small_btn { cursor: pointer; width: 60px; height: 60px; border: 1px solid #333; border-radius: 30px; } 
-.small_slide .slide_small { position: absolute; inset: 50% 0 0 50%; transform: translate(0, -66%); } 
+.small_slide .slide_small { position: absolute; inset: 50% 0 0 50%; transform: translate(0, -55%); } 
 .small_slide .slide_small img { margin: 10px; height: 330px; width: 330px; } 
 
 
 /* section fixed_bg */
-.fixed_bg { position: relative; height:350vh; background: #181818; } 
+.fixed_bg { position: relative; height:360vh; background: #181818; } 
 
 
 .typo { position: sticky; top: 0; padding: 170px 0; height:100vh; } 
