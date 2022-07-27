@@ -67,7 +67,6 @@ html { height: 15000px; }
 /* section fixed_bg */
 .fixed_bg { position: relative; height:360vh; background: #181818; } 
 
-
 .typo { position: sticky; top: 0; padding: 170px 0; height:100vh; } 
 .typo .container { width: 1420px; margin: 0 auto; } 
 .typo .inner { display: flex; } 
@@ -75,7 +74,6 @@ html { height: 15000px; }
 .typo .inner p { color: white; font-size: 180px; font-family: 'Cormorant Garamond', serif; font-weight: 400; margin: 0 30px 60px 0; } 
 .typo .inner span { color: white; font-size: 180px; font-family: 'Cormorant Garamond', serif; font-weight: 400; text-align: right; margin: 0 0 60px 30px; } 
 .typo .inner strong { color: white; font-size: 180px; font-family: 'Cormorant Garamond', serif; font-weight: 400; margin: 0 30px 0 0; } 
-
 
 .aos .container { width: 1420px; margin: 0 auto; } 
 .aos .container div { width: 50%; } 
@@ -85,4 +83,4 @@ html { height: 15000px; }
 
 
 /* section fixed */
-.fixed { position: relative; z-index: 1; } 
+.fixed  .container {width:1420px; margin:0 auto;} 
