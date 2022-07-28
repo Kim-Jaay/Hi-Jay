@@ -18,7 +18,23 @@ $(function () {
         pauseOnFocus: false,
         slidesToShow: 4,
         centerMode: true,
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            }],
+
+
+
     });
+
+
 
     $('.slide01').slick({
         arrows: false,
@@ -30,6 +46,17 @@ $(function () {
         vertical: true,
         slidesToShow: 3,
         cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            }],
+
     });
 
     $('.slide02').slick({
@@ -42,6 +69,17 @@ $(function () {
         vertical: true,
         slidesToShow: 3,
         cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            }],
+
     });
 
     $('.slide_small').slick({
