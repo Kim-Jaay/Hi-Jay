@@ -157,15 +157,15 @@
 
 
 /* section slide_section */
-.slide_section { padding: 100px 0; background: rgb(236, 236, 236); overflow: hidden; } 
-.slide_section .container {display: flex; flex-direction: column; width: auto; margin: 0 20px;} 
+.slide_section { padding: 50px 0; background: rgb(236, 236, 236); overflow: hidden; } 
+.slide_section .container {display: flex; flex-direction: column; width: auto; margin: 0 20px; overflow: hidden; } 
 .slide_section .container .slide { display: flex; flex-direction: column; width:auto; } 
-.slide_section .container .slide .slide01 { width: auto;} 
-.slide_section .container .slide .slide02 { width: auto;} 
+.slide_section .container .slide .slide01 { width: auto; margin: 0 0 50px 0;} 
+.slide_section .container .slide .slide02 { display: none; width: auto;} 
 .slide_section .container .slide div>img { width: auto; } 
 .slide_section .content { margin: 0; width: auto; font-family: 'SUIT'; text-align: left; } 
 .slide_section .content h2 { font-size: 40px; font-weight: 700; margin: 0 0 30px 0; } 
-.slide_section .content p { font-size: 20px; font-weight: 400; line-height: 1.4; } 
+.slide_section .content p { font-size: 20px; font-weight: 400; line-height: 1.4; margin: 0;} 
 
 
 

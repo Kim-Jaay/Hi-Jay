@@ -52,7 +52,7 @@ $(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     vertical: false,
 
                 }
@@ -76,9 +76,8 @@ $(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     vertical: false,
-
                 }
             }],
 
