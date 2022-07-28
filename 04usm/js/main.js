@@ -90,7 +90,18 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
         slidesToShow: 4,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 1,
+
+
+                }
+            }],
     });
 
     $('.small_btn').on('click', function () {
