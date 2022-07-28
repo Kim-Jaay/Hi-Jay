@@ -52,8 +52,9 @@ $(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 2
+                    slidesToShow: 3,
+                    vertical: false,
+
                 }
             }],
 
@@ -75,8 +76,9 @@ $(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 2
+                    slidesToShow: 3,
+                    vertical: false,
+
                 }
             }],
 
