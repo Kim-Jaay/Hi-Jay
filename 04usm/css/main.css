@@ -157,7 +157,7 @@
 
 /* section slide_section */
 .slide_section { background: rgb(236, 236, 236); overflow: hidden; } 
-.slide_section .container {display: flex; width: auto; } 
+.slide_section .container {display: flex; width: auto; margin: 0 20px;} 
 .slide_section .container .slide { display: flex; width: 50%; } 
 .slide_section .container .slide01 { width: 25%;} 
 .slide_section .container .slide02 { width: 25%;} 
