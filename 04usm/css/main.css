@@ -126,6 +126,8 @@
 
     
     *{word-break: keep-all;}
+    *{outline:1px solid pink}
+.Wrap{overflow-x: hidden;}
     
     /* header */
 .header h1 { line-height: 100px; margin: 0 auto; text-align: center; } 
