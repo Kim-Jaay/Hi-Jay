@@ -4,7 +4,7 @@ $(function () {
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
-        fade: true,
+        // fade: true,
     });
 
     $('.btn').on('click', function () {

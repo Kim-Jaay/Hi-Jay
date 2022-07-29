@@ -194,7 +194,7 @@
 
 
 /* section fixed_bg */
-.fixed_bg {  position: relative; height:200vh; background: #181818; } 
+.fixed_bg {  position: relative; height:230vh; background: #181818; } 
 
 .typo { margin: 0 20px; position: sticky; top: 0; padding: 40vh 0; height:100vh; } 
 .typo .container { width: auto; margin: 0 auto; } 
