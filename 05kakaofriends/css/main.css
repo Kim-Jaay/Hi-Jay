@@ -16,3 +16,12 @@
 .header .container .gnb{gap: 30px; width: 400px; font-weight: 13px;}
 .header h1 {width: 250px;}
 .header .container .icon{gap: 20px; width: 400px; font-size: 20px;}
+
+/* main_visual */
+.main_visual .main_slider .mv01{background: url(../img/mv01.png)no-repeat center center/cover;}
+.main_visual .main_slider .mv02{background: url(../img/mv02.png)no-repeat center center/cover;}
+.main_visual .main_slider .mv03{background: url(../img/mv03.png)no-repeat center center/cover;}
+.main_visual .main_slider figure{padding: 140px;}
+.main_visual .main_slider .container{gap: 20px;}
+.main_visual .main_slider .container>img{width: 33.33%; }
+
