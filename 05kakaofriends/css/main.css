@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); 
-@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff');
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -20,7 +25,8 @@ html{height: 15000px;}
 .header .container>ul { display: flex; } 
 .header .container .gnb { gap: 30px; width: 400px; font-weight: 13px; } 
 .header h1 { width: 250px; } 
-.header .container .icon { gap: 20px; width: 400px; font-size: 20px; } 
+.header .container .icon {gap: 20px; width: 400px; font-size: 20px;} 
+
 
 /* main_visual */
 .main_visual .main_slider .mv01 { background: url(../img/mv01.png)no-repeat center center/cover; } 
