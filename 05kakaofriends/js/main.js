@@ -21,6 +21,14 @@ $(function () {
         slidesToShow: 4,
     });
 
+    $('.angle i:nth-child(1)').on('click', function () {
+        $('.friends_slide').slick('slickPrev');
+    })
+
+    $('.angle i:nth-child(2)').on('click', function () {
+        $('.friends_slide').slick('slickNext');
+    })
+
 
 
 })

@@ -63,7 +63,7 @@
 .friend .container .itm06{background: #FED43F;}
 .friend .container .itm img {position: absolute; width: 50%; bottom: 120px; right: 0;}
 .friend .container{position: relative;}
-.friend .angle {position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); font-size: 30px; color: #959595;}
+.friend .angle {position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); font-size: 30px; color: #959595; cursor: pointer;}
 .friend .angle i:nth-child(1) {transform: translateX(-750px);}
 .friend .angle i:nth-child(2) {transform: translateX(750px);}
 
