@@ -18,21 +18,22 @@
 .topbanner h2 { font-family: 'Cafe24Ssurround'; font-size: 35px; color: white; } 
 .topbanner i {font-size: 30px; cursor: pointer; } 
 
+
 /* header - nav */
 .header { line-height: 100px; } 
 .header a { display: block; } 
 .header .container {  justify-content: space-between; } 
 .header .container>ul { display: flex; } 
-.header .container .gnb { gap: 30px; width: 400px; font-weight: 13px; } 
+.header .container .gnb { gap: 30px; width: 400px; font-weight: 15px; } 
 .header h1 { width: 250px; } 
 .header .container .icon {gap: 20px; width: 400px; font-size: 20px;} 
 
 
 /* main_visual */
-.main_visual .main_slider .mv01 { background: url(../img/mv01.png)no-repeat center center/cover; } 
-.main_visual .main_slider .mv02 { background: url(../img/mv02.png)no-repeat center center/cover; } 
-.main_visual .main_slider .mv03 { background: url(../img/mv03.png)no-repeat center center/cover; } 
-.main_visual .main_slider figure { padding: 120px 0;  } 
+.main_visual .main_slider .mv01 { background: url(../img/mv001.png)no-repeat center center/cover; } 
+.main_visual .main_slider .mv02 { background: url(../img/mv002.png)no-repeat center center/cover; } 
+.main_visual .main_slider .mv03 { background: url(../img/mv003.png)no-repeat center center/cover; } 
+.main_visual .main_slider figure {height: 870px;} 
 .main_visual .main_slider .container { gap: 20px; overflow: hidden; } 
-.main_visual .main_slider .container>img {width: 33.33%;} 
+.main_visual .main_slider .container img {width: 33.33%;} 
 
