@@ -8,20 +8,20 @@
 
 
 
-html{height: 15000px;}
+
 
 .container { display: flex; width: 1420px; margin: 0 auto; } 
 
 /* topbanner */
-.topbanner { padding: 50px; background: url(../img/topbanner.png)no-repeat center center/cover; } 
-.topbanner .container { display: flex; justify-content: space-between; } 
+.topbanner { padding: 40px 0; background: url(../img/topbanner.png)no-repeat center center/cover; } 
+.topbanner .container { justify-content: space-between; } 
 .topbanner h2 { font-family: 'Cafe24Ssurround'; font-size: 35px; color: white; } 
-.topbanner i { position: absolute; inset: 30px 50% auto 50%; transform: translate(720px); font-size: 30px; cursor: pointer; } 
+.topbanner i {font-size: 30px; cursor: pointer; } 
 
 /* header - nav */
 .header { line-height: 100px; } 
 .header a { display: block; } 
-.header .container { justify-content: space-between; } 
+.header .container {  justify-content: space-between; } 
 .header .container>ul { display: flex; } 
 .header .container .gnb { gap: 30px; width: 400px; font-weight: 13px; } 
 .header h1 { width: 250px; } 
@@ -32,7 +32,7 @@ html{height: 15000px;}
 .main_visual .main_slider .mv01 { background: url(../img/mv01.png)no-repeat center center/cover; } 
 .main_visual .main_slider .mv02 { background: url(../img/mv02.png)no-repeat center center/cover; } 
 .main_visual .main_slider .mv03 { background: url(../img/mv03.png)no-repeat center center/cover; } 
-.main_visual .main_slider figure { padding: 140px; } 
-.main_visual .main_slider .container { gap: 20px; } 
-.main_visual .main_slider .container>img { width: 33.33%; } 
+.main_visual .main_slider figure { padding: 120px 0;  } 
+.main_visual .main_slider .container { gap: 20px; overflow: hidden; } 
+.main_visual .main_slider .container>img {width: 33.33%;} 
 
