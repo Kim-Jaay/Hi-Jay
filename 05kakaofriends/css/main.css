@@ -57,11 +57,18 @@
 .friend .container .itm04 { background: #81ACCE; } 
 .friend .container .itm05 { background: #A97937; } 
 .friend .container .itm06 { background: #FED43F; } 
-.friend .container .itm img { position: absolute; width: 50%; bottom: 120px; right: 0; } 
+.friend .container .itm img { position: absolute; width: 50%; bottom: 100px; right: 0; } 
 .friend .container { position: relative; } 
 .friend .angle { position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); font-size: 30px; color: #959595; cursor: pointer; } 
 .friend .angle i:nth-child(1) { transform: translateX(-750px); } 
 .friend .angle i:nth-child(2) { transform: translateX(750px); } 
+.friend .container .friends_slide .box:hover .itm>img{animation: jump 1s infinite;}
+
+@keyframes jump {
+    0% { transform: translate(0, -10%) scale(1, 0.95); }
+    50% { transform: translate(0, -20%) scale(1, 1); }
+    100% { transform: translate(0, -10%) scale(1, 0.95); }
+}
 
 /* section season */
 .season { padding: 100px 0; background: #fafafa; } 
