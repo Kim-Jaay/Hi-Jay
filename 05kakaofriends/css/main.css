@@ -51,20 +51,20 @@
 .friend .container {flex-direction: column;}
 .friend .container h2{font-size: 30px; font-family: 'Fredoka One', cursive; line-height: 1.3; color: #181818; margin: 0 0 20px 0;}
 .friend .container p{font-size: 15px; font-family: 'SUIT'; font-weight: 500; line-height: 1.4; color: #333;}
-
-
-
-
 .friend .container .itm {position: relative; padding: 100px 40px 40px 40px; border-radius: 20px; margin: 0 10px; overflow: visible;}
 .friend .container .itm h3{font-size: 25px; font-family: 'Cafe24Ssurround', cursive; line-height: 1.3; color: white; margin: 0 0 10px 0; }
 .friend .container .itm p{font-size: 15px; font-family: 'SUIT'; font-weight: 400; line-height: 1.4; color: white; margin: 0;}
 .box{padding-top:100px ;}
-
 .friend .container .itm01{background: #FD9F21;}
 .friend .container .itm02{background: #FD949D;}
 .friend .container .itm03{background: #A76844;}
 .friend .container .itm04{background: #81ACCE;}
 .friend .container .itm05{background: #A97937;}
 .friend .container .itm06{background: #FED43F;}
-
 .friend .container .itm img {position: absolute; width: 50%; bottom: 120px; right: 0;}
+.friend .container{position: relative;}
+.friend .angle {position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); font-size: 30px; color: #959595;}
+.friend .angle i:nth-child(1) {transform: translateX(-750px);}
+.friend .angle i:nth-child(2) {transform: translateX(750px);}
+
+
