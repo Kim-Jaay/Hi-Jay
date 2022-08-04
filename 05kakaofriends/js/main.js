@@ -30,5 +30,20 @@ $(function () {
     })
 
 
+    $('.shop_slider').slick({
+        arrows: false,
+        autoplay: true,
+        dots: false,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        slidesToShow: 4,
+    });
+    $('.shop_angle i:nth-child(1)').on('click', function () {
+        $('.shop_slider').slick('slickPrev');
+    })
+
+    $('.shop_angle i:nth-child(2)').on('click', function () {
+        $('.shop_slider').slick('slickNext');
+    })
 
 })

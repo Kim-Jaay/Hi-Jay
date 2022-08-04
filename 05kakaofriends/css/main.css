@@ -62,13 +62,13 @@
 .friend .angle { position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); font-size: 30px; color: #959595; cursor: pointer; } 
 .friend .angle i:nth-child(1) { transform: translateX(-750px); } 
 .friend .angle i:nth-child(2) { transform: translateX(750px); } 
-.friend .container .friends_slide .box:hover .itm>img{animation: jump 1s infinite;}
+.friend .container .friends_slide .box:hover .itm>img { animation: jump 1s infinite; } 
 
-@keyframes jump {
-    0% { transform: translate(0, 0) scale(1.1, 0.95); }
-    50% { transform: translate(0, -20%) scale(1, 1); }
-    100% { transform: translate(0, 0) scale(1.1, 0.95); }
-}
+@keyframes jump { 
+ 0% { transform: translate(0, 0) scale(1.1, 0.95); } 
+ 50% { transform: translate(0, -20%) scale(1, 1); } 
+ 100% { transform: translate(0, 0) scale(1.1, 0.95); } 
+ }
 
 /* section season */
 .season { padding: 100px 0; background: #fafafa; } 
@@ -78,24 +78,48 @@
 .season .container p { font-size: 15px; font-family: 'SUIT'; font-weight: 500; line-height: 1.4; color: #333; margin: 0 0 50px 0; } 
 
 .season .container .inner { display: grid; grid-template-rows: 330px 330px; grid-template-columns: 700px 700px; row-gap: 20px; column-gap: 20px; } 
-.season .container .inner .season_box{position: relative;}
-.season .container .inner .season_box>a>img{border-radius: 20px; transition: 0.5s;}
-.season .container .inner>div:hover img {filter: brightness(0.3);}
-.season .container .inner div:hover .des {opacity: 1;}
-.season .container .des { text-align: left; position: absolute; color:white; bottom: 40px; left: 40px; opacity: 0;} 
-.season .container .des h3{font-size: 25px; font-family: 'SUIT'; font-weight: 700; line-height: 1.4; margin: 0 0 10px 0;}
-.season .container .des p{font-size: 15px; font-family: 'SUIT'; line-height: 1.4; margin: 0; color: white;}
+.season .container .inner .season_box { position: relative; } 
+.season .container .inner .season_box>a>img { border-radius: 20px; transition: 0.5s; } 
+.season .container .inner>div:hover img { filter: brightness(0.3); } 
+.season .container .inner div:hover .des { opacity: 1; } 
+.season .container .des { text-align: left; position: absolute; color:white; bottom: 40px; left: 40px; opacity: 0; } 
+.season .container .des h3 { font-size: 25px; font-family: 'SUIT'; font-weight: 700; line-height: 1.4; margin: 0 0 10px 0; } 
+.season .container .des p { font-size: 15px; font-family: 'SUIT'; line-height: 1.4; margin: 0; color: white; } 
 
 
 /* section banner */
-.banner{padding: 100px 0;}
-.banner .container{flex-direction: column; text-align: center;}
-.banner .container h2{font-size: 30px; font-family: 'Cafe24Ssurround'; line-height: 1.3; color: #181818; margin: 0 0 50px 0;}
-.banner .container .inner{display: flex; width: 1420px; margin: 0 auto; gap: 20px; text-align: left;}
-.banner .container .inner figure{width: 33.333%; padding: 40px; border-radius: 20px;}
-.banner .container .inner figure h3 {font-size: 25px; font-family: 'SUIT'; font-weight: 700; line-height: 1.4; margin: 0 0 10px 0; color: white;}
-.banner .container .inner figure p {font-size: 15px; font-family: 'SUIT'; color: white; margin: 0 0 50px 0;}
-.banner .container .inner figure a{font-size: 15px; font-family: 'SUIT'; color: white; font-weight: 600; display: inline-block; border: 1px solid white; padding: 3px 20px 5px 20px; border-radius: 20px; }
-.banner .container .inner .banner_des01{background: url(../img/only01.png)no-repeat center center/cover;}
-.banner .container .inner .banner_des02{background: url(../img/only02.png)no-repeat center center/cover;}
-.banner .container .inner .banner_des03{background: url(../img/only03.png)no-repeat center center/cover;}
+.banner { padding: 100px 0; } 
+.banner .container { flex-direction: column; text-align: center; } 
+.banner .container h2 { font-size: 30px; font-family: 'Cafe24Ssurround'; line-height: 1.3; color: #181818; margin: 0 0 50px 0; } 
+.banner .container .inner { display: flex; width: 1420px; margin: 0 auto; gap: 20px; text-align: left; } 
+.banner .container .inner figure { width: 33.333%; padding: 40px; border-radius: 20px; } 
+.banner .container .inner figure h3 { font-size: 25px; font-family: 'SUIT'; font-weight: 700; line-height: 1.4; margin: 0 0 10px 0; color: white; } 
+.banner .container .inner figure p { font-size: 15px; font-family: 'SUIT'; color: white; margin: 0 0 50px 0; } 
+.banner .container .inner figure a { font-size: 15px; font-family: 'SUIT'; color: white; font-weight: 600; display: inline-block; border: 1px solid white; padding: 3px 20px 5px 20px; border-radius: 20px; } 
+.banner .container .inner .banner_des01 { background: url(../img/only01.png)no-repeat center center/cover; } 
+.banner .container .inner .banner_des02 { background: url(../img/only02.png)no-repeat center center/cover; } 
+.banner .container .inner .banner_des03 { background: url(../img/only03.png)no-repeat center center/cover; } 
+
+/* section coming soon */
+.coming { padding: 100px 0; background: #fafafa; text-align: center; } 
+.coming .container { flex-direction: column; } 
+.coming .container h2 { font-size: 30px; font-family: 'Fredoka One'; line-height: 1.3; color: #181818; margin: 0 0 50px 0; } 
+.coming .container .inner { display: flex; gap: 120px; margin: 0 auto; } 
+.coming .container .inner .itm_soon { position: relative; } 
+.coming .container .inner .itm_soon h3 { font-size: 20px; font-family: 'SUIT'; font-weight: 700; line-height: 1.4; margin: 0 0 10px 0; color: #181818; } 
+.coming .container .inner .itm_soon p { font-size: 15px; font-family: 'SUIT'; color: #181818; } 
+.coming .container .inner .itm_soon img { width: 360px; border: 1px solid #d3d3d3; border-radius: 50%; margin: 0 0 50px 0; transition: 0.5s; } 
+
+/* section shop */
+.shop{padding: 100px 0;}
+.shop .container{position: relative; flex-direction: column;}
+.shop .container h2 { font-size: 30px; font-family: 'Cafe24Ssurround'; line-height: 1.3; color: #181818; margin: 0 0 20px 0; } 
+.shop .container p { font-size: 15px; font-family: 'SUIT'; font-weight: 500; line-height: 1.4; color: #333; margin: 0 0 50px 0; } 
+.shop .container .shop_slider .shop_th {border: 1px solid #d4d4d4; border-radius: 20px; overflow: hidden; margin: 10px; padding: 40px;}
+.shop .container .shop_slider .shop_th img {margin: 0 0 70px 0;}
+.shop .container .shop_slider .shop_th h3{font-size: 20px; font-family: 'SUIT'; font-weight: 800; margin: 0 0 10px 0; }
+.shop .container .shop_slider .shop_th p{font-size: 18px; font-family: 'SUIT'; font-weight: 700; margin: 0; }
+
+.shop .container .shop_angle {position: absolute; inset: 60% auto auto 50%; transform: translate(-50%,-50%); font-size: 30px; color: #959595; cursor: pointer; }
+.shop .shop_angle i:nth-child(1) { transform: translateX(-750px); } 
+.shop .shop_angle i:nth-child(2) { transform: translateX(750px); } 
