@@ -19,6 +19,15 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
         slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 1,
+                }
+            }],
     });
 
     $('.angle i:nth-child(1)').on('click', function () {
@@ -37,6 +46,15 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
         slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 1,
+                }
+            }],
     });
     $('.shop_angle i:nth-child(1)').on('click', function () {
         $('.shop_slider').slick('slickPrev');
