@@ -12,6 +12,7 @@ $(function () {
         fade: true,
     });
 
+
     $('.friends_slide').slick({
         arrows: false,
         autoplay: true,
@@ -77,5 +78,17 @@ $(function () {
             $('.to_top').fadeOut(1000)
         }
     });
+
+
+    $('.contianer_slide').slick({
+        arrows: false,
+        autoplay: true,
+        dots: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        fade: true,
+        slidesToShow: 2,
+    });
+
 });
 
