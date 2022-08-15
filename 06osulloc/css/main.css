@@ -1,0 +1,7 @@
+.container{display: flex; width: 1360px; margin: 0 auto;}
+
+.header{line-height: 100px;}
+.header .container {position: absolute; top:0; left: 280px; right: 280px; justify-content: space-between;}
+.header .container ul{display: flex; gap: 40px;}
+
+.main .main_visual{height:1200px; background: url(../img/mv01.png)no-repeat bottom center/cover;}
