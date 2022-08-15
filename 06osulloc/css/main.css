@@ -1,6 +1,9 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");html { height: 15000px; } 
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
+
+
 .container { display: flex; width: 1360px; margin: 0 auto; } 
 
+/* header */
 .header { line-height: 100px; } 
 .header .container { position: absolute; top:0; left: 280px; right: 280px; justify-content: space-between; } 
 .header .container ul { display: flex; gap: 40px; } 
@@ -8,7 +11,26 @@
 .header .container ul>li>a { display: block; } 
 .header .container ul>li { font-size: 18px; font-family: 'SUIT', sans-serif; } 
 
+
+/* main_visual */
 .main_visual { height:115vh; background: url(../img/mv01.png)no-repeat bottom center/cover; } 
 .main_visual .container { flex-direction: column; text-align: right; padding-top: 800px; width: 1360px; margin: 0 auto; color: white; } 
 .main_visual .container h2 { font-size: 40px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
 .main_visual .container p { font-size: 15px; font-family: SUIT; line-height: 1.4; } 
+
+
+/* slider */
+.circle_slider{padding: 100px 0;position: relative;}
+
+.circle_slider .slider{margin: 0 auto; text-align: center;}
+
+.circle_slider .slider figure>img{margin: 0 auto 50px auto; }
+.circle_slider .slider h2{font-size: 40px; font-family: 'Jeju Myeongjo', serif; margin:  0 0 50px 0; color: #181818;}
+.circle_slider .slider p{font-size: 15px; line-height: 1.4; font-family: SUIT;}
+
+
+.circle_slider .slider01{position: absolute; inset:}
+
+.circle_arrows{position: absolute; inset:50% auto auto 50%; transform: translate(-50%,-50%);} 
+.circle_arrows img:nth-child(1){transform: translateX(-300px);}
+.circle_arrows img:nth-child(2){transform: translateX(300px);}
