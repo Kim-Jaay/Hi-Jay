@@ -1,6 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet");
-
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");html { height: 15000px; } 
 .container { display: flex; width: 1360px; margin: 0 auto; } 
 
 .header { line-height: 100px; } 
@@ -8,9 +6,9 @@
 .header .container ul { display: flex; gap: 40px; } 
 .header .container ul>li { color: white; } 
 .header .container ul>li>a { display: block; } 
-.header .gnb{font-size: 18px; font-family: 'SUIT', sans-serif;}
+.header .container ul>li { font-size: 18px; font-family: 'SUIT', sans-serif; } 
 
-.main_visual { height:120vh; background: url(../img/mv01.png)no-repeat bottom center/cover; } 
-.main_visual .container { flex-direction: column; text-align: right; padding-top: 740px; width: 1360px; margin: 0 auto; color: white; } 
-.main_visual .container h2 {font-size: 40px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
-.main_visual .container p{font-size: 15px; font-family: SUIT; line-height: 1.4;}
+.main_visual { height:115vh; background: url(../img/mv01.png)no-repeat bottom center/cover; } 
+.main_visual .container { flex-direction: column; text-align: right; padding-top: 800px; width: 1360px; margin: 0 auto; color: white; } 
+.main_visual .container h2 { font-size: 40px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
+.main_visual .container p { font-size: 15px; font-family: SUIT; line-height: 1.4; } 
