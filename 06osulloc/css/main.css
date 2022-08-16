@@ -24,7 +24,7 @@
 .circle_slider .inner{position: relative;}
 .circle_slider .slider{ margin: 0 auto; text-align: center;}
 
-.circle_slider .slider figure>img{margin: 0 auto 50px auto; }
+.circle_slider .slider figure>img{margin: 0 auto 50px auto; width: 25%; }
 .circle_slider .slider h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin:  0 0 50px 0; color: #181818;}
 .circle_slider .slider p{font-size: 15px; line-height: 1.4; font-family: SUIT;}
 
