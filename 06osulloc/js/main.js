@@ -67,6 +67,7 @@ $(function () {
         dots: false,
         pauseOnHover: false,
         pauseOnFocus: false,
+        fade: true,
     });
     $('.since_arrows img:nth-child(1)').on('click', function () {
         $('.since_slider').slick('slickPrev');

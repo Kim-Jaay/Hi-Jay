@@ -44,7 +44,7 @@
 
 .since .since_slider { width: 60%; z-index: 1; } 
 .since .since_slider img { margin-right: 20px; } 
-.since .right_slider .since_slider02 { position:absolute; width: 50%; inset: 50% 0 auto auto; transform: translate(0,-50%); } 
+.since .right_slider  { position:absolute; width: 50%; inset: 50% 0 auto auto; transform: translate(0,-50%); } 
 .since .right_slider .since_slider02 figure>img { position: relative; height: 100%; } 
 
 .since .right_slider .since_slider02 .des { position:absolute; text-align: right; bottom: 150px; z-index: 1; } 
