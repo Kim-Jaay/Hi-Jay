@@ -28,8 +28,8 @@
 .circle_slider .slider h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin:  0 0 50px 0; color: #181818;}
 .circle_slider .slider p{font-size: 15px; line-height: 1.4; font-family: SUIT;}
 
-.circle_slider .slider01{ position: absolute; inset:50% auto auto 0; transform: translate(-50%,-50%); width:20%;}
-.circle_slider .slider02{ position: absolute; inset:50% -20% auto auto; transform: translate(-50%,-50%); width:20%;}
+.circle_slider .slider01{ position: absolute; inset:50% auto auto 0; transform: translate(-50%,-50%); width:20%; filter:grayscale(1);}
+.circle_slider .slider02{ position: absolute; inset:50% -20% auto auto; transform: translate(-50%,-50%); width:20%; filter:grayscale(1);}
 .circle_arrows{position: absolute; inset:50% auto auto 50%; transform: translate(-50%,-50%);} 
 .circle_arrows img:nth-child(1){transform: translateX(-300px);}
 .circle_arrows img:nth-child(2){transform: translateX(300px);}
