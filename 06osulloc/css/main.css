@@ -37,17 +37,18 @@
 
 /* since */
 .since { position: relative; padding: 100px 0; background: #333; } 
-.since .inner .con { width: 1360px; margin: 0 auto; color: white; } 
-.since .inner .con h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
-.since .inner .con p { font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 100px 0; } 
-.since .inner .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px; } 
+.since .con { width: 1360px; margin: 0 auto; color: white; } 
+.since .con h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
+.since .con p { font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 100px 0; } 
+.since .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px;} 
+.since .con .since_arrows>img{cursor: pointer;}
 
 .since .since_slider { width: 60%; z-index: 1; } 
 .since .since_slider img { margin-right: 20px; } 
-.since .right_slider  { position:absolute; width: 50%; inset: 50% 0 auto auto; transform: translate(0,-50%); } 
-.since .right_slider .since_slider02 figure>img { position: relative; height: 100%; } 
 
-.since .right_slider .since_slider02 .des { position:absolute; text-align: right; bottom: 150px; z-index: 1; } 
+.since .right_slider  { position:absolute; height: 100%; top: 0; right: 0; } 
+
+
 
 
 /* mall */
