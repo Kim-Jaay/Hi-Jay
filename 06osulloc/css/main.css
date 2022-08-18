@@ -36,32 +36,29 @@
 
 
 /* since */
-.since { position: relative; padding: 100px 0; background: #333; } 
+.since { padding: 100px 0; background: #333; } 
 .since .con { width: 1360px; margin: 0 auto; color: white; } 
 .since .con h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
 .since .con p { font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 100px 0; } 
 .since .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px;} 
 .since .con .since_arrows>img{cursor: pointer;}
-
-.since .since_slider { width: 60%; z-index: 1; } 
 .since .since_slider img { margin-right: 20px; } 
 
 .since .right_slider {display: none;} 
 
-position:absolute; height: 100%; top: 0; right: 0; 
 
 
 /* mall */
 .store {padding: 100px 0;}
-.store .container {padding-top: 100px; justify-content: space-between; } 
 .store .row01 { display: flex; width: 1360px; margin: 0 auto; gap: 20px; } 
+.store .container {flex-direction: column;}
+.store .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; }
+.store .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 
-.store .container .inner h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; }
-.store .container .inner p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 .store .row01 img {margin:0 0 10px 0;}
 .store .row01 h3 {font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 10px 0; }
 .store .row01 h4 {font-size: 15px; font-family: SUIT; color: #959595; margin:0 0 10px 0; text-decoration:line-through; }
 .store .row01 p{font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 50px 0; }
 .store .row01 span{color:#6C801A;}
-.store .row02 {padding-bottom: 50px;}
+
 
