@@ -51,8 +51,8 @@
 .mall {padding: 100px 0;}
 .mall .row01 { display: flex; width: 1360px; margin: 0 auto; gap: 20px; } 
 .mall .container {width: 1360px; margin: 0 auto;}
-.mall .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; }
-.store .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+.mall .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0; }
+.mall .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 
 .mall .row01 img {margin:0 0 10px 0;}
 .mall .row01 h3 {font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 10px 0; }
@@ -62,11 +62,18 @@
 
 
 /* fixed */
-.fixed{padding: 110px 0 100px 0 ; text-align: center; background: url(../img/fixed.jpg)no-repeat center center/cover; color: white;}
+.fixed{padding: 110px 0 100px 0 ; text-align: center; background: url(../img/fixed.jpg)no-repeat fixed center/cover; color: white;}
 .fixed p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 .fixed a{ padding: 10px 30px; border: 1px solid white; border-radius: 30px;}
 
 /* store */
 .store{padding: 100px 0;}
+.store .container .inner {display: flex; justify-content: space-between;}
+.store .container .inner .con h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0;}
+.store .container .inner .con p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 .store .container{width: 1360px; margin: 0 auto;}
 .store .imgbtn{display: flex; gap: 20px;}
+.store .itm{position: relative;}
+.store .des{position: absolute; top: 40px; left: 40px; color: white;}
+.store .des h3{font-size: 25px; font-family: SUIT; margin:0 0 10px 0; }
+.store .des p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300;}
