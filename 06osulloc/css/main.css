@@ -1,10 +1,9 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css); @import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
 
-.container { display: flex; width: 1360px; margin: 0 auto; } 
 
 /* header */
 .header { line-height: 100px; } 
-.header .container { position: absolute; top:0; left: 280px; right: 280px; justify-content: space-between; } 
+.header .container {display: flex; width: 1360px; margin: 0 auto; position: absolute; top:0; left: 280px; right: 280px; justify-content: space-between; } 
 .header .container ul { display: flex; gap: 40px; } 
 .header .container ul>li { color: white; } 
 .header .container ul>li>a { display: block; } 
@@ -40,8 +39,8 @@
 .since .con { width: 1360px; margin: 0 auto; color: white; } 
 .since .con h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
 .since .con p { font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 100px 0; } 
-.since .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px;} 
-.since .con .since_arrows>img{cursor: pointer;}
+.since .since_slider{width: 60%; }
+.since .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px;cursor: pointer;} 
 .since .since_slider img { margin-right: 20px; } 
 
 .since .right_slider {display: none;} 
@@ -49,16 +48,25 @@
 
 
 /* mall */
-.store {padding: 100px 0;}
-.store .row01 { display: flex; width: 1360px; margin: 0 auto; gap: 20px; } 
-.store .container {flex-direction: column;}
-.store .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; }
+.mall {padding: 100px 0;}
+.mall .row01 { display: flex; width: 1360px; margin: 0 auto; gap: 20px; } 
+.mall .container {width: 1360px; margin: 0 auto;}
+.mall .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; }
 .store .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 
-.store .row01 img {margin:0 0 10px 0;}
-.store .row01 h3 {font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 10px 0; }
-.store .row01 h4 {font-size: 15px; font-family: SUIT; color: #959595; margin:0 0 10px 0; text-decoration:line-through; }
-.store .row01 p{font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 50px 0; }
-.store .row01 span{color:#6C801A;}
+.mall .row01 img {margin:0 0 10px 0;}
+.mall .row01 h3 {font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 10px 0; }
+.mall .row01 h4 {font-size: 15px; font-family: SUIT; color: #959595; margin:0 0 10px 0; text-decoration:line-through; }
+.mall .row01 p{font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 50px 0; }
+.mall .row01 span{color:#6C801A;}
 
 
+/* fixed */
+.fixed{padding: 110px 0 100px 0 ; text-align: center; background: url(../img/fixed.jpg)no-repeat center center/cover; color: white;}
+.fixed p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+.fixed a{ padding: 10px 30px; border: 1px solid white; border-radius: 30px;}
+
+/* store */
+.store{padding: 100px 0;}
+.store .container{width: 1360px; margin: 0 auto;}
+.store .imgbtn{display: flex; gap: 20px;}
