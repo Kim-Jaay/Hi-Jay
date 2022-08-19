@@ -68,9 +68,8 @@
 
 /* store */
 .store{padding: 100px 0;}
-.store .container .inner {display: flex; justify-content: space-between;}
-.store .container .inner .con h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0;}
-.store .container .inner .con p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+.store .container h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0;}
+.store .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
 .store .container{width: 1360px; margin: 0 auto;}
 .store .imgbtn{display: flex; gap: 20px;}
 .store .itm{position: relative;}
@@ -92,3 +91,106 @@
 
 .to_top { display: none; position: fixed; z-index: 999; inset: auto 20px 50px auto; } 
 .to_top i { border: 1px solid #959595; padding: 7px; background: white; color: #959595; font-size: 20px; border-radius: 25px; cursor: pointer; } 
+
+
+
+xxx{}
+.Wrap { overflow-x: hidden; } 
+
+@media (max-width: 768px){/* header */
+.header { line-height: 100px; } 
+.header .container {display: flex; width: auto; margin: 0 auto; position: absolute; top:0; left: 0; right: 0; justify-content: center; } 
+.header .container ul { display: none; gap: 40px; } 
+.header .container nav{display: none;}
+.header .container ul>li { color: white; } 
+.header .container ul>li>a { display: block; } 
+.header .container ul>li { font-size: 18px; font-family: 'SUIT', sans-serif; } 
+
+
+/* main_visual */
+.main_visual { height:100vh; background: url(../img/mv01.png)no-repeat bottom center/cover; } 
+.main_visual .container { flex-direction: column; text-align: center; padding-top: 400px; width: auto; margin: 0 auto; color: white; } 
+.main_visual .container h2 { font-size: 40px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
+.main_visual .container p { font-size: 15px; font-family: SUIT; line-height: 1.4; } 
+
+
+/* slider */
+.circle_slider { padding: 100px 0; } 
+.circle_slider .inner { position: relative; } 
+.circle_slider .slider { margin: 0 auto; text-align: center; } 
+
+.circle_slider .slider figure>img { margin: 0 auto 50px auto; width: 50%; } 
+.circle_slider .slider h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 50px 0; color: #181818; } 
+.circle_slider .slider p { font-size: 15px; line-height: 1.4; font-family: SUIT; } 
+
+.circle_slider .slider01 { position: absolute; inset:50% auto auto 0; transform: translate(-50%,-50%); width:20%; filter:grayscale(1); } 
+.circle_slider .slider02 { position: absolute; inset:50% -20% auto auto; transform: translate(-50%,-50%); width:20%; filter:grayscale(1); } 
+.circle_arrows {display: none; position: absolute; inset:50% auto auto 50%; transform: translate(-50%,-50%); } 
+.circle_arrows img:nth-child(1) { transform: translateX(-300px); } 
+.circle_arrows img:nth-child(2) { transform: translateX(300px); } 
+
+
+
+/* since */
+.since { padding: 100px 0; background: #333; } 
+.since .con { margin: 0 20px;  width: auto;  color: white; } 
+.since .con h2 { font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 30px 0; } 
+.since .con p { font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 100px 0; } 
+.since .since_slider{margin: 0 10px; width: auto; }
+.since .con .since_arrows { margin: 0 0 50px 0; display: flex; gap: 10px;cursor: pointer;} 
+.since .since_slider img { margin:0 10px; } 
+
+.since .right_slider {display: none;} 
+
+
+
+/* mall */
+.mall {padding: 100px 0;margin: 0 20px;}
+
+.mall .container { width: auto; margin: 0 auto;}
+.mall .container  h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0; }
+.mall .container  p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+
+.mall .row01 { display: flex; flex-direction: column; width: auto; margin: 0 auto; gap: 0; } 
+.mall .row01 img {margin:0 0 10px 0; width: 100%;}
+.mall .row01 h3 {font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 10px 0; }
+.mall .row01 h4 {font-size: 15px; font-family: SUIT; color: #959595; margin:0 0 10px 0; text-decoration:line-through; }
+.mall .row01 p{font-size: 20px; font-family: SUIT; font-weight: 500; margin:0 0 50px 0; }
+.mall .row01 span{color:#6C801A;}
+
+
+/* fixed */
+.fixed{ padding: 110px 0 100px 0 ; text-align: center; background: url(../img/fixed.jpg)no-repeat fixed center/cover; color: white;}
+.fixed .container{margin: 0 20px; word-break: keep-all;}
+.fixed p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+.fixed a{ padding: 10px 30px; border: 1px solid white; border-radius: 30px;}
+
+/* store */
+.store{padding: 100px 0;}
+.store .container{width: auto; margin: 0 20px;}
+.store .container img{width: 100%;}
+.store .container h2{font-size: 30px; font-family: 'Jeju Myeongjo', serif; margin: 0 0 20px 0;}
+.store .container p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300; margin: 0 0 50px 0;}
+
+.store .imgbtn{display: flex; flex-direction: column; gap: 20px;}
+
+.store .itm{position: relative;}
+.store .des{position: absolute; top: 40px; left: 40px; color: white;}
+.store .des h3{font-size: 25px; font-family: SUIT; margin:0 0 10px 0; }
+.store .des p{font-size: 15px; line-height: 1.4; font-family: SUIT; font-weight: 300;}
+
+
+/* footer */
+.footer { padding: 50px 20px; background: #f1f1f1; } 
+.footer .container { width: 1360px; margin: 0 auto; } 
+.footer .container .top { display: flex; justify-content: space-between; line-height: 40px; margin: 0 0 30px 0; } 
+.footer .container .top ul { display: flex; font-size: 10px; } 
+.footer .container .top ul>li~li::before { display: inline-block; content: ""; width: 1px; height: 8px; background:#333; margin: 0 10px; } 
+
+.footer .container .bot { font-size: 10px; } 
+.footer .container .bot dl>dd { margin: 0 0 10px 0; } 
+
+
+.to_top { display: none; position: fixed; z-index: 999; inset: auto 20px 50px auto; } 
+.to_top i { border: 1px solid #959595; padding: 7px; background: white; color: #959595; font-size: 20px; border-radius: 25px; cursor: pointer; } 
+}
