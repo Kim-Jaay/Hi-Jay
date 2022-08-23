@@ -3,10 +3,7 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
-
 /* *{outline: 1px dashed pink;} */
-
-
 
 /* Header */
 .Header a{display: block;}
@@ -16,3 +13,7 @@
 .Header .Gnb ul{display: flex; gap: 40px; line-height: 30px; justify-content: center; margin-bottom: 30px; font-size: 17px;} 
 
 /* Main_Slider */
+.MainVisual .MainSlider figure{height: 80vh; }
+.MainVisual .MainSlider .itm01 {background: url(../img/mv01.png)no-repeat center center/cover;}
+.MainVisual .MainSlider .itm02 {background: url(../img/mv02.png)no-repeat center center/cover;}
+.MainVisual .MainSlider .itm03 {background: url(../img/mv03.png)no-repeat center center/cover;}
