@@ -2,6 +2,9 @@
 @import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
 /* font-family: 'Montserrat', sans-serif; */
 
+
+:root { --mc:#E3011D;} 
+
 /* * { outline: 1px dashed pink; }  */
 .Wrap { overflow-x: hidden; overflow-y:hidden !important; } 
 
@@ -19,7 +22,7 @@
 .splide__slide .slogan h2 { font-family: 'Montserrat', sans-serif; font-weight: 600; color:white; margin: 0 0 50px 0; font-size: 65px; } 
 .splide__slide .slogan a { padding: 15px 35px; background: white; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 15px; } 
 .splide__pagination>li button { width: 50px; height: 4px; background: white; gap: 10px; border-radius: 0; bottom: 100px; opacity: 1; } 
-.splide__pagination>li button.is-active { background: red; transform: none; opacity: 1; } 
+.splide__pagination>li button.is-active { background: var(--mc); transform: none; opacity: 1; } 
 .splide__arrows>button { width: 75px; height: 75px; border-radius: 0; opacity: 1; background: white; } 
 .splide__arrow--prev { left: 0; } 
 .splide__arrow--next { right: 0; } 
@@ -34,3 +37,4 @@
 
 .Tab .container .top .TabMenu{display: flex; gap: 20px;}
 .Tab .container .top .TabMenu li{padding: 10px 30px; border: 1px solid #959595; border-radius: 20px;}
+.Tab .container .top .TabMenu li.on{background: var(--mc); border: 1px solid var(--mc); color: white;}
