@@ -32,8 +32,8 @@
 .Tab .container{ width: 1420px; margin: 0 auto;}
 .Tab .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
 .Tab .container .top{display: flex; justify-content: space-between; margin: 0 0 50px 0;}
-.Tab .container .top>a:hover{border-bottom: 1px solid #333;}
-.Tab .container .top>a{align-self: center;}
+.Tab .container .top>a:hover{border-bottom: 1px solid #959595;}
+.Tab .container .top>a{align-self: center; color: #959595;}
 
 .Tab .container .top .TabMenu{display: flex; gap: 20px;}
 .Tab .container .top .TabMenu li{padding: 10px 30px; border: 1px solid #959595; border-radius: 20px;}
