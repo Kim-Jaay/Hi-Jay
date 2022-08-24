@@ -10,7 +10,6 @@ window.addEventListener('DOMContentLoaded', () => {
         perPage: 1,
     }).mount();
 
-
     const ProductCon = new Splide('.ProductCon', {
         type: 'loop',
         perPage: 4,
@@ -18,19 +17,33 @@ window.addEventListener('DOMContentLoaded', () => {
         pagination: false,
     }).mount();
 
-});
 
-{/* <script>
-    $(function () {
-        $('.tab_menu>li>a').on('click', function (e) {
+
+
+    const TabMenu = document.querySelectorAll('.TabMenu>li');
+    const TabCon = document.querySelectorAll('.TabCon>li')
+
+    for (var i = 0; i < TabMenu.length; i++) {
+        TabMenu[i].querySelector('.TabMenu>li>a').addEventListener('click', function (e) {
             e.preventDefault();
-            // console.log($(this).parent().index());
-            var idx = $(this).parent().index();
-            $('.tab_content>li').removeClass('on');
-            $('.tab_content>li').eq(idx).addClass('on');
-            $('.tab_menu>li').removeClass('on')
-            $(this).parent().addClass('on');
+            for (var j = 0; j < TabMenu.length; j++) {
+                // 나머지 버튼 클래스 제거
+                TabMenu[j].classList.remove('on');
+
+                // 나머지 컨텐츠 display:none 처리
+                TabCon[j].style.display = 'none';
+            }
+
+            // 버튼 관련 이벤트
+            this.parentNode.classList.add('on');
+
+            // 버튼 클릭시 컨텐츠 전환
+            activeCont = this.getAttribute('href');
+            document.querySelector(activeCont).style.display = 'block';
         });
+    }
 
 
-</script> */}
+
+
+});
