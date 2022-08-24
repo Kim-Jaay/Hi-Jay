@@ -15,6 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
         perPage: 4,
         arrows: true,
         pagination: false,
+        perMove: 1,
     }).mount();
 
 
