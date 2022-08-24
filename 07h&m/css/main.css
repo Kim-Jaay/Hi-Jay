@@ -6,6 +6,8 @@
 :root { --mc:#E3011D;} 
 
 /* * { outline: 1px dashed pink; }  */
+
+
 .Wrap { overflow-x: hidden; overflow-y:hidden !important; } 
 
 /* Header */
@@ -29,6 +31,7 @@
 
 /* Tab */
 .Tab{padding: 100px 0;}
+
 .Tab .container{ width: 1420px; margin: 0 auto;}
 .Tab .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
 .Tab .container .top{display: flex; justify-content: space-between; margin: 0 0 50px 0;}
@@ -39,9 +42,14 @@
 .Tab .container .top .TabMenu li{padding: 10px 30px; border: 1px solid #959595; border-radius: 20px;}
 .Tab .container .top .TabMenu li.on{background: var(--mc); border: 1px solid var(--mc); color: white;}
 
-.Tab .TabCon{width: 1440px; margin: 0 auto;}
+
+.Tab .TabCon{position: relative; width: 1440px; margin: 0 auto;}
+
 .Tab .TabCon li{display: none;}
 .Tab .TabCon li.on{display: block;}
+
+
+
 .Tab .TabCon .splide__slide img{width: auto; height: auto; padding: 0 10px; margin: 0 0 10px 0;}
 .Tab .TabCon .splide__slide h3{font-size: 15px; padding: 0 10px; margin: 0 0 10px 0;}
 .Tab .TabCon .splide__slide p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 0 10px; }
