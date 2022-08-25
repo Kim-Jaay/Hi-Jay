@@ -105,4 +105,16 @@
 .Magazine .con .des h3{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 10px 0;}
 .Magazine .con .des p{font-size: 15px; color: #181818; margin: 0 0 50px 0;}
 .Magazine .con .des a{font-size: 15px; color:#959595; font-family: 'Montserrat', sans-serif; border-bottom: 1px solid white; }
-.Magazine .con .des a:hover {border-bottom: 1px solid #959595; }}
+.Magazine .con .des a:hover {border-bottom: 1px solid #959595; }
+
+
+
+/* Footer */
+.Footer{padding: 50px 0; background: #E4E4E4;}
+.Footer .container{width: 1420px; margin: 0 auto;}
+.Footer .container .top{display: flex; justify-content: space-between; margin: 0 0 40px 0;}
+.Footer .container .top .sns{display: flex;}
+.Footer .container .top .sns a{padding: 10px; display:inline-block; font-size: 20px;}
+.Footer .bot .menu{margin: 0 0 20px 0;}
+.Footer .bot ul li{display: inline-block; line-height: 20px;}
+.Footer .bot ul li~li::before {display: inline-block; content: ''; width: 1px; height: 10px; background: #959595; margin: 0 10px;}
