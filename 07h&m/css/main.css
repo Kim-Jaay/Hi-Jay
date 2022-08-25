@@ -87,7 +87,7 @@
 .TileBtn .container figure a:hover{background: white; border: 1px solid white; color:#181818; }
 
 .TileBtn .left{background: url(../img/btn01.png) no-repeat center center/cover;}
-.TileBtn .right{background: url(../img/btn02.png) no-repeat center center/cover; flex: 1;}
+.TileBtn .right{background: url(../img/btn02.png) no-repeat center center/cover;}
 
 
 
@@ -118,3 +118,159 @@
 .Footer .bot .menu{margin: 0 0 20px 0;}
 .Footer .bot ul li{display: inline-block; line-height: 20px;}
 .Footer .bot ul li~li::before {display: inline-block; content: ''; width: 1px; height: 10px; background: #959595; margin: 0 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxx{}
+/* 반응형 */
+
+@media (max-width: 768px){
+
+
+    .Wrap { overflow-x: hidden; overflow-y:hidden !important;  }
+
+    /* Header */
+    .Header a { display: block; } 
+    .Header .top { display: none; width: 1840px; margin: 0 auto; justify-content: space-between; line-height: 40px; } 
+    .Header .top ul { display: flex; gap: 40px; } 
+    .Header h1 { width: 75px; margin: 0 auto; line-height: 90px; } 
+    .Header .Gnb ul { display: none; gap: 40px; line-height: 30px; justify-content: center; margin-bottom: 30px; font-size: 17px; } 
+    
+    /* Main_Slider */
+    .Main .splide__slide { position: relative; } 
+    .Main .splide__slide img { width: auto; height: 80vh; padding: 0 40px; object-fit: cover; } 
+    .Main .splide__slide .slogan { position: absolute; inset: 55% auto auto 50%; transform: translate(-50%, -50%); text-align: center; } 
+    .Main .splide__slide .slogan h2 { font-family: 'Montserrat', sans-serif; font-weight: 600; color:white; margin: 0 0 50px 0; font-size: 40px; } 
+    .Main .splide__slide .slogan a { padding: 10px 20px; background: white; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 12px; } 
+    .Main .splide__pagination>li button { width: 50px; height: 4px; background: white; gap: 10px; border-radius: 0; bottom: 100px; opacity: 1; } 
+    .Main .splide__pagination>li button.is-active { background: var(--mc); transform: none; opacity: 1; } 
+    .Main .splide__arrows>button { display: none; width: 75px; height: 75px; border-radius: 0; opacity: 1; background: white; } 
+    .Main .splide__arrow--prev { left: 0; } 
+    .Main .splide__arrow--next { right: 0; } 
+    
+    /* Tab */
+    .Tab{padding: 100px 0; margin: 0 20px;}
+    .Tab .container{ width: auto; margin: 0 auto;}
+    .Tab .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 35px 0;}
+    .Tab .container .top{display: flex; flex-direction: column; justify-content: space-between; margin: 0 0 50px 0;}
+    .Tab .container .top>a:hover{border-bottom: 1px solid #959595;}
+    .Tab .container .top>a{align-self: center; color: #959595; border-bottom: 1px solid white; font-size: 15px; font-family: 'Montserrat', sans-serif; }
+    .Tab .container .top .TabMenu{display: flex; gap: 5px;}
+    .Tab .container .top .TabMenu li a{ padding: 3px 5px; border: 1px solid #959595; border-radius: 25px;}
+    .Tab .container .top .TabMenu li.on a{background: var(--mc); border: 1px solid var(--mc); color: white;}
+    
+    .Tab .TabCon{position: relative; width: 1440px; margin: 0 auto;}
+    .Tab .TabCon>li{display: none;}
+    .Tab .TabCon>li.on{display: block; top: 0;}
+    
+    .Tab .TabCon .splide__slide img{width: auto; height: auto; padding: 0 10px; margin: 0 0 10px 0;}
+    .Tab .TabCon .splide__slide h3{font-size: 15px; padding: 0 10px; margin: 0 0 10px 0;}
+    .Tab .TabCon .splide__slide p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 0 10px; }
+    .Tab .splide__arrows>button { width: 50px; height: 50px; border-radius: 0; opacity: 1; background: transparent; } 
+    .Tab .splide__arrow--prev { left: -70px; } 
+    .Tab .splide__arrow--next { right: -70px; }
+    
+    
+    
+    /* NewThmb */
+    .NewThmb{background:#f1f1f1; height: 600px; }
+    .NewThmb .container{ width: auto; margin: 0 20px; padding: 100px 0; }
+    .NewThmb .container .inner{display: flex; width: 100%; gap: 20px; float: none;}
+    .NewThmb .container .inner .des{background: white; padding: 20px; margin: 0 0 20px 0; }
+    .NewThmb .container .inner .des h3{font-size: 15px; margin: 0 0 10px 0;}
+    .NewThmb .container .inner .des p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; }
+    .NewThmb .container .inner ul li{position: relative;}
+    .NewThmb .container .inner ul li span{position: absolute; top: 0; left: 20px; padding: 7px 15px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+    
+    
+    
+    /* Sale */
+    .Sale{padding: 100px 0; margin: 0 20px;}
+    .Sale .container {width: auto; margin: 0 auto; }
+    .Sale .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 10px 0;}
+    .Sale .container .inner {width: 100%; display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 30px 0;color: #959595;  }
+    .Sale .container .inner a{border-bottom: 1px solid white; }
+    .Sale .container .inner a:hover {border-bottom: 1px solid #959595; }
+    
+    .Sale .product {display: flex; gap: 5px; width: auto; margin: 0 auto;}
+    .Sale .product figure img{margin: 0 0 10px 0;}
+    .Sale .product figure h3{font-size: 12px; margin: 0 0 5px 0;}
+    .Sale .product figure p{font-size: 14px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 30px 0; }
+    
+    
+    /* TileBtn */
+    .TileBtn .container{display: flex; flex-direction: column;}
+    .TileBtn .container figure{flex: 1; padding: 150px 0; text-align: center;}
+    .TileBtn .container figure h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 45px 0; color: white;}
+    .TileBtn .container figure a{padding: 10px 20px; background: transparent; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 12px; border: 1px solid white; color:white; transition: 0.5s; }
+    .TileBtn .container figure a:hover{background: white; border: 1px solid white; color:#181818; }
+    
+    .TileBtn .left{background: url(../img/btn01.png) no-repeat center center/cover;}
+    .TileBtn .right{background: url(../img/btn02.png) no-repeat center center/cover;}
+    
+    
+    
+    /* Magazine */
+    .Magazine {padding: 100px 0; margin: 0 20px;}
+    .Magazine .container{width: auto; margin: 0 auto;}
+    .Magazine .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
+    .Magazine .container .inner{display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 50px 0;color: #959595;  }
+    .Magazine .container .inner a{border-bottom: 1px solid white; }
+    .Magazine .container .inner a:hover {border-bottom: 1px solid #959595; }
+    .Magazine .con{display: flex; flex-direction: column; width: auto; margin: 0 auto; gap: 20px;}
+    .Magazine .con figure {display: flex; width: 100%; border: 1px solid #f1f1f1;}
+    .Magazine .con figure>img {width: 30%;}
+    .Magazine .con .des{padding: 20px 0; padding-left:30px;}
+    .Magazine .con .des h3{font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 5px 0;}
+    .Magazine .con .des p{font-size: 14px; color: #181818; margin: 0 0 20px 0;}
+    .Magazine .con .des a{font-size: 12px; color:#959595; font-family: 'Montserrat', sans-serif; border-bottom: 1px solid white; }
+    .Magazine .con .des a:hover {border-bottom: 1px solid #959595; }
+    
+    
+    
+    /* Footer */
+    .Footer{padding: 50px 0; background: #E4E4E4;}
+    .Footer .container{width: auto; margin: 0 20px;}
+    .Footer .container .top{display: flex; flex-direction: column; gap: 20px; text-align: center; align-items: center; margin: 0 0 40px 0;}
+    .Footer .container .top .sns{display: flex;}
+    .Footer .container .top .sns a{padding: 10px; display:inline-block; font-size: 20px;}
+    .Footer .bot {text-align: center;}
+    .Footer .bot .menu{margin: 0 0 20px 0;}
+    .Footer .bot ul li{display: inline-block; line-height: 20px;}
+    .Footer .bot ul li~li::before {display: inline-block; content: ''; width: 1px; height: 10px; background: #959595; margin: 0 10px;}
+
+
+
+
+
+
+
+}
