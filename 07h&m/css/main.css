@@ -213,7 +213,7 @@ xxx{}
     .NewThmb .container .inner .des p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; }
     
     .NewThmb .container .inner ul li{position: relative;}
-    .NewThmb .container .inner ul li span{display: none; position: absolute; top: 0; left: 20px; padding: 7px 15px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+    .NewThmb .container .inner ul li span{position: absolute; top: 0; left: 20px; padding: 3px 5px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 10px;}
     
     
     
