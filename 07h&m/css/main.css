@@ -195,7 +195,7 @@ xxx{}
     .Tab .TabCon>li{display: none;}
     .Tab .TabCon>li.on{display: block; top: 0;}
     
-    .Tab .TabCon .splide__slide img{width: auto; height: auto; padding: 0 10px; margin: 0 0 10px 0;}
+    .Tab .TabCon .splide__slide img{width: auto; height: auto; padding: 0 5px; margin: 0 0 10px 0;}
     .Tab .TabCon .splide__slide h3{font-size: 15px; padding: 0 10px; margin: 0 0 10px 0;}
     .Tab .TabCon .splide__slide p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 0 10px; }
     .Tab .splide__arrows>button { width: 50px; height: 50px; border-radius: 0; opacity: 1; background: transparent; } 
