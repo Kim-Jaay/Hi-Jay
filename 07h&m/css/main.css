@@ -252,7 +252,7 @@ xxx{}
     .Magazine .container .inner a:hover {border-bottom: 1px solid #959595; }
     .Magazine .con{display: flex; flex-direction: column; width: auto; margin: 0 auto; gap: 20px;}
     .Magazine .con figure {display: flex; width: 100%; border: 1px solid #f1f1f1;}
-    .Magazine .con figure>img {width: 30%;}
+    .Magazine .con figure>img {width: 30%; object-fit: cover;}
     .Magazine .con .des{padding: 20px 0; padding-left:30px;}
     .Magazine .con .des h3{font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 5px 0;}
     .Magazine .con .des p{font-size: 14px; color: #181818; margin: 0 0 20px 0;}
