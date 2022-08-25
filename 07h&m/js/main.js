@@ -10,13 +10,54 @@ window.addEventListener('DOMContentLoaded', () => {
         perPage: 1,
     }).mount();
 
-    const ProductCon = new Splide('.ProductCon', {
+    const ProductCon01 = new Splide('.ProductCon01', {
         type: 'loop',
         perPage: 4,
         arrows: true,
         pagination: false,
         perMove: 1,
     }).mount();
+
+    const ProductCon02 = new Splide('.ProductCon02', {
+        type: 'loop',
+        perPage: 4,
+        arrows: true,
+        pagination: false,
+        perMove: 1,
+    }).mount();
+
+    const ProductCon03 = new Splide('.ProductCon03', {
+        type: 'loop',
+        perPage: 4,
+        arrows: true,
+        pagination: false,
+        perMove: 1,
+    }).mount();
+
+    const ProductCon04 = new Splide('.ProductCon04', {
+        type: 'loop',
+        perPage: 4,
+        arrows: true,
+        pagination: false,
+        perMove: 1,
+    }).mount();
+
+    const ProductCon05 = new Splide('.ProductCon05', {
+        type: 'loop',
+        perPage: 4,
+        arrows: true,
+        pagination: false,
+        perMove: 1,
+    }).mount();
+
+    const ProductCon06 = new Splide('.ProductCon06', {
+        type: 'loop',
+        perPage: 4,
+        arrows: true,
+        pagination: false,
+        perMove: 1,
+    }).mount();
+
 
 
 
