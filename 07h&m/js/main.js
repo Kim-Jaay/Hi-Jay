@@ -60,20 +60,19 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
+    const tabList = document.querySelectorAll('.TabMenu>li');
+    const contents = document.querySelectorAll('.TabCon>li')
+    let activeCont = '';
 
-
-    const TabMenu = document.querySelectorAll('.TabMenu>li');
-    const TabCon = document.querySelectorAll('.TabCon>li')
-
-    for (var i = 0; i < TabMenu.length; i++) {
-        TabMenu[i].querySelector('.TabMenu>li>a').addEventListener('click', function (e) {
+    for (var i = 0; i < tabList.length; i++) {
+        tabList[i].querySelector('.TabMenu>li>a').addEventListener('click', function (e) {
             e.preventDefault();
-            for (var j = 0; j < TabMenu.length; j++) {
+            for (var j = 0; j < tabList.length; j++) {
                 // 나머지 버튼 클래스 제거
-                TabMenu[j].classList.remove('on');
+                tabList[j].classList.remove('on');
 
                 // 나머지 컨텐츠 display:none 처리
-                TabCon[j].style.display = 'none';
+                contents[j].style.display = 'none';
             }
 
             // 버튼 관련 이벤트
@@ -84,10 +83,6 @@ window.addEventListener('DOMContentLoaded', () => {
             document.querySelector(activeCont).style.display = 'block';
         });
     }
-
-
-
-
 
 
 
