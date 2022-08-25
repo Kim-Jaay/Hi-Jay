@@ -8,7 +8,7 @@
 /* * { outline: 1px dashed pink; }  */
 
 
-.Wrap { overflow-x: hidden; overflow-y:hidden !important; } 
+.Wrap { overflow-x: hidden; overflow-y:hidden !important;  }
 
 /* Header */
 .Header a { display: block; } 
@@ -35,7 +35,7 @@
 .Tab .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 35px 0;}
 .Tab .container .top{display: flex; justify-content: space-between; margin: 0 0 50px 0;}
 .Tab .container .top>a:hover{border-bottom: 1px solid #959595;}
-.Tab .container .top>a{align-self: center; color: #959595; border-bottom: 1px solid white;}
+.Tab .container .top>a{align-self: center; color: #959595; border-bottom: 1px solid white; font-size: 15px; font-family: 'Montserrat', sans-serif; }
 .Tab .container .top .TabMenu{display: flex; gap: 20px;}
 .Tab .container .top .TabMenu li a{ padding: 10px 30px; border: 1px solid #959595; border-radius: 25px;}
 .Tab .container .top .TabMenu li.on a{background: var(--mc); border: 1px solid var(--mc); color: white;}
@@ -54,7 +54,7 @@
 
 
 /* NewThmb */
-.NewThmb{background: url(../img/newthmb_bg.png)no-repeat center center/cover; height: 90vh; }
+.NewThmb{background: url(../img/newthmb_bg.png)no-repeat center center/cover; height: 920px; }
 .NewThmb .container{ width: 1420px; margin: 0 auto; padding: 100px 0; }
 .NewThmb .container .inner{display: flex; width: 50%; gap: 20px; float: right;}
 .NewThmb .container .inner .des{background: white; padding: 20px; margin: 0 0 20px 0; }
@@ -62,3 +62,43 @@
 .NewThmb .container .inner .des p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; }
 .NewThmb .container .inner ul li{position: relative;}
 .NewThmb .container .inner ul li span{position: absolute; top: 0; left: 20px; padding: 7px 15px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+
+
+/* Sale */
+.Sale{padding: 100px 0;}
+.Sale .container {width: 1420px; margin: 0 auto; }
+.Sale .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
+.Sale .container .inner {display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 50px 0;color: #959595;  }
+.Sale .container .inner a{border-bottom: 1px solid white; }
+.Sale .container .inner a:hover {border-bottom: 1px solid #959595; }
+
+.Sale .product {display: flex; gap: 20px; width: 1420px; margin: 0 auto;}
+.Sale .product figure img{margin: 0 0 10px 0;}
+.Sale .product figure h3{font-size: 15px; margin: 0 0 10px 0;}
+.Sale .product figure p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 30px 0; }
+
+
+/* TileBtn */
+.TileBtn .container{display: flex;}
+.TileBtn .container figure{flex: 1; padding: 150px 0; text-align: center;}
+.TileBtn .container figure h2{font-size: 30px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 45px 0; color: white;}
+.TileBtn .container figure a{padding: 15px 35px; background: transparent; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 15px; border: 1px solid white; color:white; transition: 0.5s; }
+.TileBtn .container figure a:hover{background: white; border: 1px solid white; color:#181818; }
+
+.TileBtn .left{background: url(../img/btn01.png) no-repeat center center/cover;}
+.TileBtn .right{background: url(../img/btn02.png) no-repeat center center/cover; flex: 1;}
+
+
+
+/* Magazine */
+.Magazine {padding: 100px 0;}
+.Magazine .container{width: 1420px; margin: 0 auto;}
+.Magazine .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
+.Magazine .container .inner{display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 50px 0;color: #959595;  }
+.Magazine .container .inner a{border-bottom: 1px solid white; }
+.Magazine .container .inner a:hover {border-bottom: 1px solid #959595; }
+.Magazine .con{display: flex; width: 1420px; margin: 0 auto; gap: 20px;}
+.Magazine .con figure {display: flex; width: 33.333%; border: 1px solid #f1f1f1;}
+.Magazine .con figure>img {width: 180px;}
+.Magazine .con .des
