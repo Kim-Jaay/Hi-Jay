@@ -166,28 +166,32 @@ xxx{}
     
     /* Main_Slider */
     .Main .splide__slide { position: relative; } 
-    .Main .splide__slide img { width: auto; height: 80vh; padding: 0 40px; object-fit: cover; } 
+    .Main .splide__slide img { width: auto; height: 80vh;  object-fit: cover; padding: 0 ; } 
+    .Main .mv02{ background: url(../img/mv02_mobile.png)no-repeat center center/cover;} 
+    .Main .mv02 img{ opacity: 0;  } 
     .Main .splide__slide .slogan { position: absolute; inset: 55% auto auto 50%; transform: translate(-50%, -50%); text-align: center; } 
     .Main .splide__slide .slogan h2 { font-family: 'Montserrat', sans-serif; font-weight: 600; color:white; margin: 0 0 50px 0; font-size: 40px; } 
     .Main .splide__slide .slogan a { padding: 10px 20px; background: white; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 12px; } 
-    .Main .splide__pagination>li button { width: 50px; height: 4px; background: white; gap: 10px; border-radius: 0; bottom: 100px; opacity: 1; } 
+
+    .Main .splide__pagination>li button { width: 50px; height: 6px; background: white; border-radius: 0; bottom: 80px; opacity: 1; } 
     .Main .splide__pagination>li button.is-active { background: var(--mc); transform: none; opacity: 1; } 
+
     .Main .splide__arrows>button { display: none; width: 75px; height: 75px; border-radius: 0; opacity: 1; background: white; } 
     .Main .splide__arrow--prev { left: 0; } 
     .Main .splide__arrow--next { right: 0; } 
     
     /* Tab */
-    .Tab{padding: 100px 0; margin: 0 20px;}
+    .Tab{padding: 50px 0; margin: 0 20px;}
     .Tab .container{ width: auto; margin: 0 auto;}
     .Tab .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 35px 0;}
-    .Tab .container .top{display: flex; flex-direction: column; justify-content: space-between; margin: 0 0 50px 0;}
+    .Tab .container .top{display: flex; flex-direction: column; justify-content: space-between; margin: 0 0 20px 0;}
     .Tab .container .top>a:hover{border-bottom: 1px solid #959595;}
-    .Tab .container .top>a{text-align: right; align-self:unset; color: #959595; border-bottom: 1px solid white; font-size: 15px; font-family: 'Montserrat', sans-serif; }
-    .Tab .container .top .TabMenu{display: flex; width: 500px; gap: 5px; margin: 0 0 30px 0;}
+    .Tab .container .top>a{ display: none; text-align: right; align-self:unset; color: #959595; border-bottom: 1px solid white; font-size: 15px; font-family: 'Montserrat', sans-serif; }
+    .Tab .container .top .TabMenu{display: flex; width: 400px; gap: 5px; margin: 0 0 30px 0;}
     .Tab .container .top .TabMenu li a{ padding: 3px 5px; border: 1px solid #959595; border-radius: 25px;}
     .Tab .container .top .TabMenu li.on a{background: var(--mc); border: 1px solid var(--mc); color: white;}
     
-    .Tab .TabCon{position: relative; width: 1440px; margin: 0 auto;}
+    .Tab .TabCon{position: relative; width: auto; margin: 0 auto;}
     .Tab .TabCon>li{display: none;}
     .Tab .TabCon>li.on{display: block; top: 0;}
     
@@ -201,19 +205,20 @@ xxx{}
     
     
     /* NewThmb */
-    .NewThmb{background:#f1f1f1; height: 600px; }
-    .NewThmb .container{ width: auto; margin: 0 20px; padding: 100px 0; }
-    .NewThmb .container .inner{display: flex; width: 100%; gap: 20px; float: none;}
-    .NewThmb .container .inner .des{background: white; padding: 20px; margin: 0 0 20px 0; }
+    .NewThmb{background:#f1f1f1; padding: 50px 0; height: auto; }
+    .NewThmb .container{ width: auto; margin: 0 20px; padding: 0; }
+    .NewThmb .container .inner{display: flex; width: 100%; gap: 10px; float: none;}
+    .NewThmb .container .inner .des{background: white; padding: 20px; margin: 0 0 10px 0; }
     .NewThmb .container .inner .des h3{font-size: 15px; margin: 0 0 10px 0;}
     .NewThmb .container .inner .des p{font-size: 15px; font-family: 'Montserrat', sans-serif; font-weight: 600; }
+    
     .NewThmb .container .inner ul li{position: relative;}
-    .NewThmb .container .inner ul li span{position: absolute; top: 0; left: 20px; padding: 7px 15px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+    .NewThmb .container .inner ul li span{display: none; position: absolute; top: 0; left: 20px; padding: 7px 15px; background: var(--mc); color: white; font-family: 'Montserrat', sans-serif; font-weight: 600;}
     
     
     
     /* Sale */
-    .Sale{padding: 100px 0; margin: 0 20px;}
+    .Sale{padding: 50px 0; margin: 0 20px;}
     .Sale .container {width: auto; margin: 0 auto; }
     .Sale .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 10px 0;}
     .Sale .container .inner {width: 100%; display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 30px 0;color: #959595;  }
@@ -239,7 +244,7 @@ xxx{}
     
     
     /* Magazine */
-    .Magazine {padding: 100px 0; margin: 0 20px;}
+    .Magazine {padding: 50px 0; margin: 0 20px;}
     .Magazine .container{width: auto; margin: 0 auto;}
     .Magazine .container h2{font-size: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0;}
     .Magazine .container .inner{display: flex; justify-content: space-between; font-size: 15px; font-family: 'Montserrat', sans-serif; margin: 0 0 50px 0;color: #959595;  }
