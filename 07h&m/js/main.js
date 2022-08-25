@@ -62,28 +62,18 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const tabList = document.querySelectorAll('.TabMenu>li');
     const contents = document.querySelectorAll('.TabCon>li')
-    let activeCont = '';
 
-    for (var i = 0; i < tabList.length; i++) {
-        tabList[i].querySelector('.TabMenu>li>a').addEventListener('click', function (e) {
+    tabList.forEach((el, idx) => {
+        el.addEventListener('click', (e) => {
             e.preventDefault();
+            tabList.forEach(el => el.classList.remove('on'))
+            el.classList.add('on');
+            contents.forEach(el => el.classList.remove('on'))
+            contents[idx].classList.add('on')
 
-            for (var j = 0; j < tabList.length; j++) {
-                // 나머지 버튼 클래스 제거
-                tabList[j].classList.remove('on');
+        })
 
-                // 나머지 컨텐츠 display:none 처리
-                contents[j].style.display = 'none';
-
-                // 버튼 관련 이벤트
-                this.parentNode.classList.add('on');
-            }
-            // 버튼 클릭시 컨텐츠 전환
-            activeCont = ('.TabMenu>li>a').getAttribute('href');
-            document.querySelector(activeCont).style.display = 'block';
-
-        });
-    }
+    });
 
 
 
