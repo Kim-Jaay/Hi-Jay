@@ -12,7 +12,7 @@
 
 /* Header */
 .Header a { display: block; } 
-.Header .top { display: flex; width: 1840px; margin: 0 auto; justify-content: space-between; line-height: 40px; } 
+.Header .top { display: flex; width: 100%; margin: 0 auto; justify-content: space-between; line-height: 40px; padding: 0 40px; } 
 .Header .top ul { display: flex; gap: 40px; } 
 .Header h1 { width: 75px; margin: 0 auto; line-height: 90px; } 
 .Header .Gnb ul { display: flex; gap: 40px; line-height: 30px; justify-content: center; margin-bottom: 30px; font-size: 17px; } 
