@@ -66,6 +66,7 @@ body { color: white; background: var(--bc); }
 .OnAir .bg_slide .des>strong { display: inline-block; font-size: 18px; margin: 0 0 15px 0; } 
 .OnAir .bg_slide .des>p { font-size: 13px; line-height: 1.45; font-weight: 200; } 
 .OnAir .bg_slide .des>span { position: absolute; left: 0; top: -50px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 5px 10px; background: red; } 
+.OnAir .bg_slide .des>b { position: absolute; left: 0; top: -50px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 5px 10px; background: var(--mc); } 
 
 .OnAir .bg_slide_handler { position: absolute; bottom: 50px; left: 50%; transform: translate(-50%, -50%); font-size: 30px; z-index: 99; color: white; } 
 

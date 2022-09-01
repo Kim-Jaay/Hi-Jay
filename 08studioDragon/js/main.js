@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const PosterSlider = new Swiper('.poster_slide', {
         loop: true,
         slidesPerView: 9,
-        spaceBetween: 30,
+        spaceBetween: 20,
     });
 
     document.querySelector('.bg_slide_handler .prev').addEventListener('click', () => {
