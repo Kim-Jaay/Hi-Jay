@@ -1,0 +1,22 @@
+:root{--mc:#1B23EC; --lc:#ddd; --bc:black;}
+
+*{color: white;}
+
+
+.Wrap{position: relative;}
+
+/* header */
+.Header{line-height: 100px;}
+.Header a {display: inline-block;}
+.Header h1{width: 300px;}
+.Header .lang{width: 300px;}
+
+.Header .container{position: absolute; top: 0; left: 80px; right: 80px; z-index: 1;
+    display: flex; justify-content: space-between; margin: 0 70px;}
+.Header .Gnb>ul{display: flex; gap: 50px;}
+.Header .lang>ul{display: flex; justify-content: flex-end;} 
+.Header .lang>ul>li~li::before{display: inline-block; content: ''; width: 1px; height: 10px; background: var(--lc); margin: 0 20px;}
+
+
+/* MainVisual */
+.MainVisual video{width: 100%; height: 100vh; object-fit: cover;}
