@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const BgSlider = new Swiper('.bg_slide', {
         loop: true,
         effect: 'fade',
-        touchRatio: 0,
+        touchRatio: 0, //드래그 금지
 
     });
 
@@ -15,14 +15,14 @@ window.addEventListener('DOMContentLoaded', () => {
         loop: true,
         slidesPerView: 8,
         spaceBetween: 20,
-        touchRatio: 0,
+        touchRatio: 0, //드래그 금지
     });
 
     const PosterBigSlider = new Swiper('.poster_slide_big', {
         loop: true,
         slidesPerView: 1,
         effect: 'fade',
-        touchRatio: 0,
+        touchRatio: 0, //드래그 금지
 
     });
 
