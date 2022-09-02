@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
     const BgSlider = new Swiper('.bg_slide', {
+
         loop: true,
         effect: 'fade',
         touchRatio: 0, //드래그 금지
@@ -16,6 +17,13 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 8,
         spaceBetween: 20,
         touchRatio: 0, //드래그 금지
+        breakpoints: {
+            // when window width is >= 320px
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10
+            },
+        }
     });
 
     const PosterBigSlider = new Swiper('.poster_slide_big', {
@@ -47,30 +55,22 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
     const counters = document.querySelectorAll('.value');
-    const speed = 300;
+    const speed = 500;
 
+    counters.forEach(counter => {
+        const animate = () => {
+            const value = +counter.getAttribute('akhi');
+            const data = +counter.innerText;
 
-
-    window.addEventListener('scroll', () => {
-        let sct = window.scrollY;
-
-        console.log(sct);
-        sct > 890
-        counters.forEach(counter => {
-            const animate = () => {
-                const value = +counter.getAttribute('akhi');
-                const data = +counter.innerText;
-
-                const time = value / speed;
-                if (data < value) {
-                    counter.innerText = Math.ceil(data + time);
-                    setTimeout(animate, 1);
-                } else {
-                    counter.innerText = value;
-                }
+            const time = value / speed;
+            if (data < value) {
+                counter.innerText = Math.ceil(data + time);
+                setTimeout(animate, 1);
+            } else {
+                counter.innerText = value;
             }
-            animate();
-        });
+        }
+        animate();
     });
 
 
@@ -82,12 +82,24 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-    //////////////////
-
-
-
+    //////////////////  
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

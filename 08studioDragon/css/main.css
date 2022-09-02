@@ -30,7 +30,7 @@ body { color: white; background: var(--bc); }
 .StoryTeller .container { display: flex; justify-content: space-between; width: 1420px; margin: 0 auto 100px auto; } 
 .StoryTeller .container .count { display: flex; text-align: center; gap: 30px; } 
 .StoryTeller .thmb { width: 1420px; margin: 0 auto; display: flex; gap: 20px; } 
-.StoryTeller .thmb figure:hover {scale: 1.05;} 
+.StoryTeller .thmb figure:hover { scale: 1.05; } 
 
 .StoryTeller .thmb figure { position: relative; flex: 1; transition: 0.3s; } 
 .StoryTeller .thmb figure>p { position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,-50%); text-align: center; font-size: 20px; font-weight: 800; font-family: 'Montserrat', sans-serif; } 
@@ -71,10 +71,10 @@ body { color: white; background: var(--bc); }
 .OnAir .bg_slide .des>b { position: absolute; left: 0; top: -50px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 5px 10px; background: var(--mc); } 
 
 .OnAir .bg_slide_handler { display: flex; gap: 50px; position: absolute; bottom:20px; left: 50%; transform: translate(-50%, -50%); font-size: 20px; z-index: 99; color: white; cursor: pointer; } 
-.OnAir .bg_slide_handler i{padding: 10px; }
+.OnAir .bg_slide_handler i { padding: 10px; } 
 
 .OnAir .poster_slide { position: absolute; inset: auto 0 100px auto; width:calc((100% - 1420px) / 2 + 1420px - 260px) } 
-.OnAir .poster_slide_big { position: absolute; inset: auto auto 100px calc((100% - 1420px) / 2); width:240px;  margin-right: 20px;} 
+.OnAir .poster_slide_big { position: absolute; inset: auto auto 100px calc((100% - 1420px) / 2); width:240px; margin-right: 20px; } 
 
 
 
@@ -116,3 +116,146 @@ body { color: white; background: var(--bc); }
  .Footer .bot h1 { margin-right: 50px; } 
  .Footer .bot>ul { line-height: 1.45; width: 1200px; font-size: 11px; } 
  .Footer .bot .sns { font-size: 40px; display: flex; gap: 10px; } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxx { } 
+ @media (max-width: 768px){
+ .Wrap { position: relative; overflow-x: hidden;} 
+
+/* header */
+.Header { line-height: 100px; background: none; } 
+.Header a { display: inline-block; } 
+
+.Header h1 { width: 300px; } 
+.Header .lang { display: none; width: 300px; } 
+
+.Header .container { position: absolute; top: 0; left: 50%; right: 50%; z-index: 1; display: block; justify-content: space-between; margin: 0 auto; font-family: 'Montserrat', sans-serif; font-weight: 600; color: var(--wc); font-size: 18px; } 
+.Header .Gnb>ul { display: none; gap: 50px; } 
+.Header .lang>ul { display: flex; justify-content: flex-end; } 
+.Header .lang>ul>li~li::before { display: inline-block; content: ''; width: 1px; height: 10px; background: var(--lc); margin: 0 20px; } 
+
+
+/* MainVisual */
+.MainVisual video { width: 100%; height:90vh; object-fit:cover; } 
+
+
+/* StoryTeller */
+.StoryTeller { padding: 30px 0; margin: 0 15px; } 
+.StoryTeller .container { display: flex; flex-direction: column; justify-content: space-between; width: auto; margin: 0 auto 10px auto; } 
+.StoryTeller .container .count { display: flex; text-align: center; gap: 20px; } 
+.StoryTeller .thmb { width: 100%; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; } 
+.StoryTeller .thmb figure:hover { scale: 1.05; } 
+
+.StoryTeller .thmb figure { position: relative; flex: 1; transition: 0.3s; } 
+.StoryTeller .thmb figure>p { position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,-50%); text-align: center; font-size: 20
+    px; font-weight: 800; font-family: 'Montserrat', sans-serif; } 
+
+.StoryTeller .inner h2 { font-size: 40px; font-family: 'Montserrat', sans-serif; font-weight: 800; margin: 0 0 40px 0; } 
+.StoryTeller .inner h2>span { background: linear-gradient(to top, var(--mc) 40%, transparent 60%) } 
+.StoryTeller .inner p { font-size: 12px; font-family: 'SUIT'; line-height: 1.45; } 
+
+.StoryTeller .count { padding: 80px 0; } 
+.StoryTeller .count li:nth-child(1) { margin-right: 5px; } 
+
+.StoryTeller .count strong { display: inline-block; font-size: 30px; font-family: 'Montserrat', sans-serif; font-weight: 600; margin: 0 0 20px 0; } 
+.StoryTeller .count p { font-size: 12px; font-family: 'Montserrat', sans-serif; font-weight: 500; } 
+
+
+/* on air */
+
+.OnAir { position: relative; word-break: keep-all; } 
+.OnAir .bg_slide figure { height: 90vh; width: 100%; } 
+.OnAir .bg_slide .itm01 { background: url(../img/001.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm04 { background: url(../img/002.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm02 { background: url(../img/003.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm03 { background: url(../img/004.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm05 { background: url(../img/005.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm06 { background: url(../img/006.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm07 { background: url(../img/007.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm08 { background: url(../img/008.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm09 { background: url(../img/009.png)no-repeat center center/cover; } 
+.OnAir .bg_slide .itm10 { background: url(../img/010.png)no-repeat center center/cover; } 
+
+
+.OnAir .bg_slide .des { position: absolute; inset: 70% auto auto 50%; transform: translate(-50%, -50%); width: 100%; margin: 0 15px; font-family: 'SUIT';  } 
+.OnAir .bg_slide .des>h2 { font-size: 30px; margin: 0 0 10px 0; font-weight: 800; } 
+.OnAir .bg_slide .des>h3 { font-size: 15px; margin: 0 0 40px 0; font-weight: 600; } 
+.OnAir .bg_slide .des>strong { display: inline-block; font-size: 18px; margin: 0 0 15px 0; } 
+.OnAir .bg_slide .des>p { font-size: 13px; line-height: 1.45; font-weight: 200; } 
+.OnAir .bg_slide .des>span { position: absolute; left: 0; top: -50px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 5px 10px; background: red; } 
+.OnAir .bg_slide .des>b { position: absolute; left: 0; top: -50px; font-family: 'Montserrat', sans-serif; font-weight: 600; padding: 5px 10px; background: var(--mc); } 
+
+.OnAir .bg_slide_handler { display: flex; gap: 50px; position: absolute; bottom:20px; left: 50%; transform: translate(-50%, -50%); font-size: 20px; z-index: 99; color: white; cursor: pointer; } 
+.OnAir .bg_slide_handler i { padding: 10px; } 
+
+.OnAir .poster_slide { position: absolute; inset: auto 0 100px auto; width:auto; } 
+.OnAir .poster_slide_big { position: absolute; inset: auto auto 100px calc((100% - 1420px) / 2); width:240px; margin-right: 20px; } 
+
+
+
+
+.OnAir .poster_slide figure>p { font-size: 13px; margin: 0; } 
+
+
+
+
+
+/* Ethical */
+.Ethical { padding: 50px 0; font-family: 'SUIT'; margin: 0 15px; word-break: keep-all; } 
+.Ethical .container { width: auto; margin: 0 auto; text-align: center; } 
+.Ethical .container h2 { font-size: 30px; margin: 0 0 20px 0; font-family: 'Montserrat', sans-serif; font-weight: 800; } 
+.Ethical .container p { font-size: 12px; margin: 0 0 50px 0; line-height: 1.45; font-weight: 200; } 
+.Ethical .container p::after { display: block; content: ''; width: 50px; height: 1px; background:var(--wc); margin: 50px auto; } 
+.Ethical .container strong { display: inline-block; padding: 10px 30px; background: var(--mc); border-radius: 10px; margin: 0 0 20px 0; font-family: 'Montserrat', sans-serif; font-weight: 600; } 
+.Ethical .container span { display: block; font-size: 12px; margin: 0 0 50px 0; line-height: 1.45; font-weight: 200; } 
+
+
+
+
+
+/* txt */
+.TextSlide { padding: 30px 0; background: var(--mc); } 
+
+.TextSlide .text_slide { overflow:hidden; position:relative; width:100%; } 
+.TextSlide .txt_box { width:5280px; display:flex; animation: bannermove 20s linear infinite; font-size: 30px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-align: center } 
+
+ @keyframes bannermove { 
+ 0% { transform: translate(0, 0); } 
+ 100% { transform: translate(-50%, 0); } 
+ }
+
+
+ .Footer .container { width: auto; margin: 0 15px; font-size: 10px; font-weight: 300; text-align: center;} 
+ .Footer .top { font-size: 0; padding: 20px 0px; display: flex;} 
+ .Footer .top>li~li::before { display: none; content: ''; width: 1px; height: 10px; background: var(--lc); margin: 0 20px; } 
+ .Footer .bot { padding: 0 0 30px 0; display: flex; flex-direction: column; vertical-align: middle; justify-content: space-between; } 
+ .Footer .bot h1 { margin-right: 0; margin-bottom: 20px;} 
+ .Footer .bot>ul { line-height: 1.45; width: auto; font-size: 11px;margin-bottom: 20px; } 
+ .Footer .bot .sns { font-size: 40px; display: flex; gap: 10px; margin: 0 auto; } 
+
+
+
+
+
+
+
+
+
+
+}
