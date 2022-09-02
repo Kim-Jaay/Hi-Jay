@@ -17,13 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 8,
         spaceBetween: 20,
         touchRatio: 0, //드래그 금지
-        breakpoints: {
-            // when window width is >= 320px
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 10
-            },
-        }
+
     });
 
     const PosterBigSlider = new Swiper('.poster_slide_big', {
